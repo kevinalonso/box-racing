@@ -1,0 +1,10 @@
+.wpsearchconsole-subtab li{
+	margin: 0px 0px 0px 10px;
+	padding: 0;
+	display: inline-block;
+}
+.wpsearchconsole-subtab li:not(:last-child):after{
+	content: "|";
+	margin-left: 10px; 
+}
+		

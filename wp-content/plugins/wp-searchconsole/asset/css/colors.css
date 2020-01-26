@@ -1,0 +1,76 @@
+@import url(//fonts.googleapis.com/css?family=Raleway);
+
+.wpsearchconsole-green {
+	color: #8bba30;
+}
+.wpsearchconsole-red {
+	color: #ff644d;
+}
+.wpsearchconsole-yellow {
+	color: #ffcc33;
+}
+.wpsearchconsole-blue {
+	color: #6495ed;
+}
+table.striped .odd-row{
+	background-color: #f9f9f9;
+}
+table.striped .even-row{
+	background-color: #ffffff;
+}
+
+.wpsearchconsole-editor {
+	border-color: #ccc; border-style: solid; border-width: 0px 1px 1px 1px; max-width: 100%;  box-sizing: border-box; padding: 15px;
+}
+
+.wpsearchconsole_metabox {
+	font-family: 'Raleway', Helvetica, Arial, serif;
+}
+.wpsearchconsole {
+	font-family: 'Raleway', Helvetica, Arial, serif;
+}
+.wpsc {
+	font-family: 'Raleway', Helvetica, Arial, serif;
+}
+
+.postbox .inside:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.postbox .inside{
+	padding:4px;
+}
+
+#wpsearchconsole-metabox-tabs .nav-tab {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 4px;
+}
+
+.wpsearchconsole-hide {
+	display: none;
+}
+
+#wpfooter {
+	position:relative;
+}
+
+/* underscore */
+tr.barre{
+	text-decoration: line-through;
+}
+.wpsc_warning{
+	color: #ff913f;
+}
+
+.wpsc_spinner {
+	background: url('/wp-admin/images/wpspin_light.gif') no-repeat;
+	background-size: 16px 16px;
+	display: none;
+	position:absolute;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	width: 16px;
+	height: 16px;
+	margin: 5px 5px 0;
+}

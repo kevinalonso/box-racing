@@ -1,0 +1,3548 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Search Console\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-17 16:32+0200\n"
+"PO-Revision-Date: 2017-05-26 16:47+0300\n"
+"Last-Translator: Denis Lamotte <denis.lamotte@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_FR\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-SearchPath-0: asset/ln\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: admin/initiate.php:44
+msgid "Wp Search Console Plugin can't be activated because your PHP version"
+msgstr ""
+"Плагин WP Search Console не может быть активирован, так как ваша версия PHP"
+
+#: admin/initiate.php:45
+msgid "is less than required 5.3. See more information"
+msgstr "меньше требуемой v5.3. Дополнительная информация"
+
+#: admin/initiate.php:66 admin/obj/settings.php:79
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/lib/table/table-console.php:25 admin/lib/table/table-console.php:133
+#: db/lib/csv-build.php:66
+msgid "URL"
+msgstr "Ссылка"
+
+#: admin/lib/table/table-console.php:26
+msgid "URLs"
+msgstr "Ссылки"
+
+#: admin/lib/table/table-console.php:75 admin/lib/table/table-visitors.php:61
+msgid "No URLs Added yet."
+msgstr "Нет добавленных ссылок."
+
+#: admin/lib/table/table-console.php:101
+#: admin/lib/table/table-list-of-data.php:156
+#: admin/lib/table/table-todo-metabox.php:116
+#: admin/lib/table/table-todo.php:198 admin/lib/table/table-visitors.php:79
+#: admin/lib/widget/widget-todo.php:146 admin/lib/widget/widget-todo.php:192
+msgid "Delete"
+msgstr "Удалить"
+
+#: admin/lib/table/table-console.php:134 db/lib/csv-build.php:67
+msgid "Last Crawled"
+msgstr "Последнее сканирование"
+
+#: admin/lib/table/table-console.php:135 db/lib/csv-build.php:68
+msgid "First Detected"
+msgstr "Впервые найдено"
+
+#: admin/lib/table/table-console.php:136 db/lib/csv-build.php:69
+msgid "Response Code"
+msgstr "Код ответа"
+
+#: admin/lib/table/table-duplication.php:66
+msgid "Keyword"
+msgstr "Ключевое слово"
+
+#: admin/lib/table/table-duplication.php:67
+#: admin/lib/table/table-keywords.php:134
+#: admin/lib/table/table-list-of-data.php:309
+#: admin/lib/table/table-todo.php:192
+#: admin/lib/widget/widget-data-table.php:207
+#: admin/lib/widget/widget-data-table.php:237
+#: admin/lib/widget/widget-data-table.php:246
+#: admin/lib/widget/widget-todo.php:140 db/lib/csv-build.php:103
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/lib/table/table-duplication.php:90
+#: admin/lib/table/table-duplication.php:107
+msgid "Very good, No duplicate found."
+msgstr "Очень хорошо, повторы не найдены."
+
+#: admin/lib/table/table-keywords.php:69
+msgid "InboundsTotalCount"
+msgstr "Всего входящих ссылок"
+
+#: admin/lib/table/table-keywords.php:70
+msgid "InboundsNfCount"
+msgstr "Уол-во входящих nofollow ссылок"
+
+#: admin/lib/table/table-keywords.php:71
+msgid "InternalPageRank"
+msgstr "Внутренний PageRank"
+
+#: admin/lib/table/table-keywords.php:72
+msgid "TotalOutboundsCount"
+msgstr "Кол-во исходящих ссылок"
+
+#: admin/lib/table/table-keywords.php:73
+msgid "InboundsCount"
+msgstr "Кол-во входящих ссылок"
+
+#: admin/lib/table/table-keywords.php:74
+msgid "OutboundsCount"
+msgstr "Кол-во исходящих"
+
+#: admin/lib/table/table-keywords.php:75
+msgid "OutboundsNfcount"
+msgstr "Кол-во исходящих nofollow"
+
+#: admin/lib/table/table-keywords.php:76
+msgid "LinkNfRatio"
+msgstr "LinkNfRatio"
+
+#: admin/lib/table/table-keywords.php:77
+#, fuzzy
+msgid "LinkRatio"
+msgstr "LinkRatio"
+
+#: admin/lib/table/table-keywords.php:78
+#, fuzzy
+msgid "MetaTagNoIndex"
+msgstr "MetaTagNoIndex"
+
+#: admin/lib/table/table-keywords.php:79
+msgid "RobotsTxtAllow"
+msgstr "Разрешено в robots.txt"
+
+#: admin/lib/table/table-keywords.php:80
+msgid "HeaderXRobotsNoIndex"
+msgstr "noindex в заголовке X-Robots-Tag"
+
+#: admin/lib/table/table-keywords.php:101
+msgid "Word"
+msgstr "Слово"
+
+#: admin/lib/table/table-keywords.php:102
+msgid "Freq"
+msgstr "Частота"
+
+#: admin/lib/table/table-keywords.php:103
+msgid "Density"
+msgstr "Плотность"
+
+#: admin/lib/table/table-keywords.php:104
+msgid "Weighted Density"
+msgstr "Взвешенная плотность"
+
+#: admin/lib/table/table-keywords.php:105
+msgid "Appearance"
+msgstr "Видимость"
+
+#: admin/lib/table/table-keywords.php:135
+#: admin/lib/table/table-meta-tags.php:67
+#: admin/lib/widget/widget-duplicated.php:76
+msgid "Content"
+msgstr "Содержимое"
+
+#: admin/lib/table/table-keywords.php:207
+#, fuzzy
+msgid "Perception Rating"
+msgstr "Рейтинг восприятия"
+
+#: admin/lib/table/table-keywords.php:208
+#: admin/lib/table/table-list-of-data.php:289
+#: admin/lib/table/table-list-of-data.php:306
+#: admin/lib/widget/widget-data-table.php:209
+#: admin/lib/widget/widget-data-table.php:236
+#, fuzzy
+msgid "Perception"
+msgstr "Internal Competition (URL с тем же восприятием ключевых слов)"
+
+#: admin/lib/table/table-keywords.php:209
+#, fuzzy
+msgid "On-Page (Topic)"
+msgstr "На странице (Тема)"
+
+#: admin/lib/table/table-keywords.php:210
+msgid "Inbounds Links (Reputation)"
+msgstr "Входящие ссылки (репутация)"
+
+#: admin/lib/table/table-keywords.php:211
+msgid "Topic Strength"
+msgstr "Точность темы"
+
+#: admin/lib/table/table-link-analysis.php:70
+#: admin/lib/table/table-link-analysis.php:81
+msgid "AnchorText"
+msgstr "Текст ссылки"
+
+#: admin/lib/table/table-link-analysis.php:71
+#: admin/lib/table/table-link-analysis.php:82
+msgid "AnchorType"
+msgstr "Тип ссылки"
+
+#: admin/lib/table/table-link-analysis.php:72
+#: admin/lib/table/table-link-analysis.php:83
+#, fuzzy
+msgid "PageTitle"
+msgstr "Заголовок страницы"
+
+#: admin/lib/table/table-link-analysis.php:73
+#: admin/lib/table/table-link-analysis.php:84
+msgid "PagePerception"
+msgstr "Восприятие страницы"
+
+#: admin/lib/table/table-link-analysis.php:74
+#: admin/lib/table/table-link-analysis.php:85
+msgid "PageTopic"
+msgstr "Тема страницы"
+
+#: admin/lib/table/table-link-analysis.php:76
+#: admin/lib/table/table-link-analysis.php:87
+msgid "NoFollow"
+msgstr "NoFollow"
+
+#: admin/lib/table/table-link-analysis.php:88
+#, fuzzy
+msgid "External"
+msgstr "Внешний"
+
+#: admin/lib/table/table-link-analysis.php:89
+msgid "Resource"
+msgstr "Ресурс"
+
+#: admin/lib/table/table-link-analysis.php:94
+msgid "Inbounds Links"
+msgstr "Входящие ссылки"
+
+#: admin/lib/table/table-link-analysis.php:95
+msgid "Outbounds Links"
+msgstr "Исходящие ссылки"
+
+#: admin/lib/table/table-link-analysis.php:96
+#, fuzzy
+msgid "Internal PageRank"
+msgstr "Внутренний PageRank"
+
+#: admin/lib/table/table-link-analysis.php:121
+#: admin/lib/table/table-list-of-data.php:190
+#: admin/lib/table/table-list-of-data.php:233
+#: admin/lib/table/table-list-of-data.php:255
+msgid "Edit"
+msgstr "Редактировать"
+
+#: admin/lib/table/table-link-analysis.php:122
+#: admin/lib/table/table-list-of-data.php:191
+#: admin/lib/table/table-list-of-data.php:234
+#: admin/lib/table/table-list-of-data.php:256
+#, fuzzy
+msgid "View"
+msgstr "Просмотр"
+
+#: admin/lib/table/table-link-analysis.php:167
+#: admin/lib/table/table-main-html-tags.php:105
+#: admin/lib/table/table-meta-tags.php:95
+#: admin/lib/widget/widget-data-table.php:160
+#, fuzzy
+msgid "No records found."
+msgstr "Записей не найдено."
+
+#: admin/lib/table/table-list-of-data.php:27
+#: admin/lib/table/table-list-of-data.php:285
+#: admin/lib/table/table-list-of-data.php:327
+#: admin/lib/table/table-list-of-data.php:335
+msgid "Link"
+msgstr "Ссылка"
+
+#: admin/lib/table/table-list-of-data.php:28
+#: admin/lib/table/table-list-of-data.php:299
+#: admin/lib/widget/widget-data-table.php:221 admin/obj/settings.php:445
+#: db/lib/do.php:116
+#, fuzzy
+msgid "Links"
+msgstr "Входящие ссылки (репутация)"
+
+#: admin/lib/table/table-list-of-data.php:109
+#, fuzzy
+msgid "No Records found."
+msgstr "Записей не найдено."
+
+#: admin/lib/table/table-list-of-data.php:287
+#: admin/lib/table/table-list-of-data.php:311
+#: admin/lib/widget/widget-data-table.php:210
+#: admin/lib/widget/widget-data-table.php:239
+#, fuzzy
+msgid "Reputation"
+msgstr "Репутация"
+
+#: admin/lib/table/table-list-of-data.php:288
+#: admin/lib/table/table-list-of-data.php:310
+#: admin/lib/widget/widget-data-table.php:211
+#: admin/lib/widget/widget-data-table.php:238
+msgid "Topic"
+msgstr "Тема"
+
+#: admin/lib/table/table-list-of-data.php:290
+#: admin/lib/widget/widget-data-table.php:212
+msgid "Depth"
+msgstr "Глубина"
+
+#: admin/lib/table/table-list-of-data.php:291
+#: admin/lib/widget/widget-data-table.php:213
+#, fuzzy
+msgid "PageRank"
+msgstr "PageRank"
+
+#: admin/lib/table/table-list-of-data.php:292
+#: admin/lib/widget/widget-data-table.php:214
+#: admin/lib/widget/widget-data-table.php:240
+#: user/lib/metabox/display-mitambo-link-analysis.php:84
+msgid "Inbounds"
+msgstr "Входящие"
+
+#: admin/lib/table/table-list-of-data.php:293
+#: admin/lib/widget/widget-data-table.php:215
+#: admin/lib/widget/widget-data-table.php:241
+#: user/lib/metabox/display-mitambo-link-analysis.php:85
+msgid "Outbounds"
+msgstr "Исходящие ссылки"
+
+#: admin/lib/table/table-list-of-data.php:312
+#, fuzzy
+msgid "Inbound"
+msgstr "Входящие"
+
+#: admin/lib/table/table-list-of-data.php:313
+msgid "Outbound"
+msgstr "Исходящие"
+
+#: admin/lib/table/table-list-of-data.php:318
+#: admin/lib/widget/widget-data-table.php:229
+#, fuzzy
+msgid "Value"
+msgstr "Значение"
+
+#: admin/lib/table/table-list-of-data.php:319
+#: admin/lib/widget/widget-data-table.php:230
+msgid "Count"
+msgstr "Количество"
+
+#: admin/lib/table/table-list-of-data.php:320
+#: admin/lib/widget/widget-analysis.php:167
+#: admin/lib/widget/widget-data-table.php:231
+#: user/lib/settings/display-analysis.php:267
+#: user/lib/settings/display-mitambo.php:408
+msgid "Pages"
+msgstr "Страницы"
+
+#: admin/lib/table/table-list-of-data.php:328
+#: admin/lib/table/table-list-of-data.php:336
+#, fuzzy
+msgid "Source"
+msgstr "Источник"
+
+#: admin/lib/table/table-list-of-data.php:329
+msgid "Resource Type"
+msgstr "Тип ресурса"
+
+#: admin/lib/table/table-list-of-data.php:330
+#: admin/lib/table/table-list-of-data.php:337
+#, fuzzy
+msgid "Status Code"
+msgstr "Код ответа HTTP"
+
+#: admin/lib/table/table-main-html-tags.php:67
+#: admin/lib/table/table-meta-tags.php:66
+#, fuzzy
+msgid "Tags"
+msgstr "Теги"
+
+#: admin/lib/table/table-main-html-tags.php:68
+msgid "Text"
+msgstr "Текст"
+
+#: admin/lib/table/table-todo-metabox.php:110
+#, fuzzy
+msgid "Done"
+msgstr "Готово"
+
+#: admin/lib/table/table-todo-metabox.php:111
+#: admin/lib/table/table-todo.php:193 admin/lib/widget/widget-todo.php:141
+#: db/lib/csv-build.php:106
+#, fuzzy
+msgid "Priority"
+msgstr "Приоритет"
+
+#: admin/lib/table/table-todo-metabox.php:112 admin/lib/table/table-todo.php:27
+#: admin/lib/widget/widget-todo.php:142
+#, fuzzy
+msgid "Action"
+msgstr "Действия для этой страницы"
+
+#: admin/lib/table/table-todo-metabox.php:113
+#: admin/lib/table/table-todo.php:197 admin/lib/widget/widget-todo.php:145
+#: db/lib/csv-build.php:71 db/lib/csv-build.php:109
+msgid "Category"
+msgstr "Категория"
+
+#: admin/lib/table/table-todo-metabox.php:114
+#: admin/lib/table/table-todo.php:195 admin/lib/widget/widget-todo.php:143
+#: db/lib/csv-build.php:108
+#, fuzzy
+msgid "Responsible"
+msgstr "Ответственный"
+
+#: admin/lib/table/table-todo-metabox.php:115
+#: admin/lib/table/table-todo.php:196 admin/lib/widget/widget-todo.php:144
+#: db/lib/csv-build.php:111
+msgid "Due Date"
+msgstr "Дата окончания"
+
+#: admin/lib/table/table-todo.php:28
+#, fuzzy
+msgid "Actions"
+msgstr "Действия"
+
+#: admin/lib/table/table-todo.php:88
+#, fuzzy
+msgid "No Actions Added yet."
+msgstr "Нет добавленных действий."
+
+#: admin/lib/table/table-todo.php:117
+msgid "Edit in Category"
+msgstr "Редактировать в категории"
+
+#: admin/lib/table/table-todo.php:123
+msgid "Edit in Post"
+msgstr "Изменить в статье"
+
+#: admin/lib/table/table-todo.php:194 db/lib/csv-build.php:107
+#, fuzzy
+msgid "Todo"
+msgstr "Задачи"
+
+#: admin/lib/table/table-visitors.php:24
+#, fuzzy
+msgid "Request"
+msgstr "Запрос"
+
+#: admin/lib/table/table-visitors.php:25 admin/lib/table/table-visitors.php:112
+#: admin/lib/widget/widget-analysis.php:167 db/lib/csv-build.php:85
+#: user/lib/metabox/display-google-keywords.php:60
+#: user/lib/settings/display-analysis.php:266
+#, fuzzy
+msgid "Requests"
+msgstr "Запросы"
+
+#: admin/lib/table/table-visitors.php:113
+#: admin/lib/widget/widget-analysis.php:168 db/lib/csv-build.php:86
+#: user/lib/metabox/display-google-keywords.php:61
+#, fuzzy
+msgid "Clicks"
+msgstr "Клики"
+
+#: admin/lib/table/table-visitors.php:114 db/lib/csv-build.php:87
+#, fuzzy
+msgid "Impressions"
+msgstr "Показы"
+
+#: admin/lib/table/table-visitors.php:115
+#: admin/lib/widget/widget-analysis.php:170 db/lib/csv-build.php:88
+#: user/lib/metabox/display-google-keywords.php:63
+#, fuzzy
+msgid "CTR"
+msgstr "CTR"
+
+#: admin/lib/table/table-visitors.php:116
+#: admin/lib/widget/widget-analysis.php:171 db/lib/csv-build.php:89
+#: user/lib/metabox/display-google-keywords.php:64
+msgid "Position"
+msgstr "Позиция"
+
+#: admin/lib/widget/widget-analysis.php:151
+msgid "No Data Available Yet."
+msgstr "Данные отсутствуют."
+
+#: admin/lib/widget/widget-analysis.php:169
+#: user/lib/metabox/display-google-keywords.php:62
+#, fuzzy
+msgid "Impression"
+msgstr "Показы"
+
+#: admin/lib/widget/widget-duplicated.php:74 core/lib/data-cat-tabs.php:118
+#, fuzzy
+msgid "Titles"
+msgstr "Заголовки"
+
+#: admin/lib/widget/widget-duplicated.php:75
+#, fuzzy
+msgid "Description"
+msgstr "Описание"
+
+#: admin/lib/widget/widget-internal-status.php:74
+#, fuzzy
+msgid "Status 301"
+msgstr "Статус 301"
+
+#: admin/lib/widget/widget-internal-status.php:75
+#, fuzzy
+msgid "Status 302"
+msgstr "Статус 302"
+
+#: admin/lib/widget/widget-internal-status.php:76
+#, fuzzy
+msgid "Status 307"
+msgstr "Статус 307"
+
+#: admin/lib/widget/widget-internal-status.php:77
+#, fuzzy
+msgid "Status 404"
+msgstr "Статус 404"
+
+#: admin/lib/widget/widget-internal-status.php:78
+#, fuzzy
+msgid "Status 500"
+msgstr "Статус 500"
+
+#: admin/lib/widget/widget-keywords.php:74
+#, fuzzy
+msgid "With 1 word"
+msgstr "С одним словом"
+
+#: admin/lib/widget/widget-keywords.php:75
+msgid "With 2 words"
+msgstr "С двумя словами"
+
+#: admin/lib/widget/widget-keywords.php:76
+#, fuzzy
+msgid "With 3 words"
+msgstr "С тремя словами"
+
+#: admin/lib/widget/widget-keywords.php:77
+#, fuzzy
+msgid "With 4 words"
+msgstr "С 4-мя словами"
+
+#: admin/lib/widget/widget-keywords.php:78
+#, fuzzy
+msgid "With 5 words"
+msgstr "С 5-ю словами"
+
+#: admin/lib/widget/widget-svg-large.php:34 core/lib/data-cat-tabs.php:117
+#, fuzzy
+msgid "All"
+msgstr "Все"
+
+#: admin/lib/widget/widget-svg-large.php:35
+#, fuzzy
+msgid "Very Good"
+msgstr "Очень хорошо"
+
+#: admin/lib/widget/widget-svg-large.php:36
+#, fuzzy
+msgid "Good"
+msgstr "Хорошо"
+
+#: admin/lib/widget/widget-svg-large.php:37
+msgid "Fair"
+msgstr "Прекрасно"
+
+#: admin/lib/widget/widget-svg-large.php:38
+msgid "Bad"
+msgstr "Плохо"
+
+#: admin/lib/widget/widget-svg-large.php:101
+msgid "Underexposed"
+msgstr "Недоэкспонированный"
+
+#: admin/lib/widget/widget-svg-large.php:102
+#, fuzzy
+msgid "Search engines should pay"
+msgstr "Поисковые системы должны платить"
+
+#: admin/lib/widget/widget-svg-large.php:103
+msgid "more attention to those words !"
+msgstr "обратите внимание на эти слова!"
+
+#: admin/lib/widget/widget-svg-large.php:104
+#, fuzzy
+msgid "Overexposed"
+msgstr "Экспозиция"
+
+#: admin/lib/widget/widget-svg-large.php:105
+#, fuzzy
+msgid "Search engine see words that are"
+msgstr "Поисковая система видит слова, которые"
+
+#: admin/lib/widget/widget-svg-large.php:106
+msgid "not important for you !"
+msgstr "не важны для вас!"
+
+#: admin/lib/widget/widget-todo.php:50
+msgid "View All To DO List on Your Site"
+msgstr "Посмотрите все, что нужно сделать на вашем сайте"
+
+#: admin/lib/widget/widget-todo.php:116
+msgid "Filter"
+msgstr "Фильтр"
+
+#: admin/lib/widget/widget-todo.php:166
+#, fuzzy
+msgid "No Action Added Yet"
+msgstr "Действие еще не добавлено"
+
+#: admin/obj/dashboard.php:59
+#, fuzzy
+msgid "Latest 10 Actions"
+msgstr "Последние 10 действий"
+
+#: admin/obj/dashboard.php:63
+msgid "Top RANKED page by PageRank (internal)"
+msgstr "Рейтинг страницы по PageRank (внутренний)"
+
+#: admin/obj/dashboard.php:67
+#, fuzzy
+msgid "TOP 10 Queries per device"
+msgstr "TOP 10 запросов на устройство"
+
+#: admin/obj/dashboard.php:73
+msgid "TOP 10 Queries per medium"
+msgstr "TOP 10 Запросов на medium"
+
+#: admin/obj/dashboard.php:79
+#, fuzzy
+msgid "TOP 10 Pages per device"
+msgstr "TOP 10 страниц на устройство"
+
+#: admin/obj/dashboard.php:85
+msgid "TOP 10 Pages per medium"
+msgstr "TOP 10 страниц на medium"
+
+#: admin/obj/dashboard.php:93
+msgid "SVG Demo1"
+msgstr "SVG демо1"
+
+#: admin/obj/dashboard.php:97
+msgid "SVG Demo2"
+msgstr "SVG демо2"
+
+#: admin/obj/dashboard.php:101
+msgid "SVG Demo3"
+msgstr "SVG демо3"
+
+#: admin/obj/dashboard.php:105
+msgid "SVG Demo4"
+msgstr "SVG демо4"
+
+#: admin/obj/dashboard.php:109
+msgid "SVG Demo5"
+msgstr "SVG демо5"
+
+#: admin/obj/dashboard.php:119
+msgid "Internal By Status"
+msgstr "Внутренний по статусу"
+
+#: admin/obj/dashboard.php:131
+msgid "Duplicated"
+msgstr "Продублированное"
+
+#: admin/obj/dashboard.php:133
+msgid "Internal Competition (URL with the same keywords perception) "
+msgstr "Internal Competition (URL с тем же восприятием ключевых слов)"
+
+#: admin/obj/dashboard.php:146
+#, fuzzy
+msgid "SVG Exposition"
+msgstr "Экспозиция SVG"
+
+#: admin/obj/dashboard.php:160
+#, fuzzy
+msgid "SVG Intention"
+msgstr "Намерение SVG"
+
+#: admin/obj/dashboard.php:174
+#, fuzzy
+msgid "SVG Comparison"
+msgstr "Сравнение SVG"
+
+#: admin/obj/metabox.php:43
+msgid "Action To Do On This Page"
+msgstr "Действия для этой страницы"
+
+#: admin/obj/metabox.php:48
+msgid "Keywords (Mitambo)"
+msgstr "Ключевые слова (Mitambo)"
+
+#: admin/obj/metabox.php:52
+#, fuzzy
+msgid "Request for this URL ( Google Search Console )"
+msgstr "Запрос этого URL-адреса (Google Search Console)"
+
+#: admin/obj/metabox.php:56
+#, fuzzy
+msgid "Main HTML Tags ( Mitambo )"
+msgstr "Основные теги HTML (Mitambo)"
+
+#: admin/obj/metabox.php:60
+#, fuzzy
+msgid "Link Analysis ( Mitambo )"
+msgstr "Анализ ссылок (Mitambo)"
+
+#: admin/obj/metabox.php:64
+#, fuzzy
+msgid "Meta Tags ( Mitambo )"
+msgstr "Метатеги (Mitambo)"
+
+#: admin/obj/metabox.php:68 core/lib/data-cat-tabs.php:120
+#, fuzzy
+msgid "Internal Competition ( Perception )"
+msgstr "Внутренняя конкуренция (восприятие)"
+
+#: admin/obj/metabox.php:72
+msgid "Duplicate Titles ( Mitambo )"
+msgstr "Повторяющееся заголовки (Mitambo)"
+
+#: admin/obj/metabox.php:76
+msgid "Duplicate Description ( Mitambo )"
+msgstr "Повторяющееся описания (Mitambo)"
+
+#: admin/obj/metabox.php:80
+msgid "Duplicate Content ( Mitambo )"
+msgstr "Повторяющейся контент (Mitambo)"
+
+#: admin/obj/settings.php:64 admin/obj/settings.php:78
+#, fuzzy
+msgid "Settings WP Search Console"
+msgstr "Настройки WP Search Console"
+
+#: admin/obj/settings.php:65
+#, fuzzy
+msgid "Searchconsole"
+msgstr "Searchconsole"
+
+#: admin/obj/settings.php:92 admin/obj/settings.php:93
+#, fuzzy
+msgid "List of Data"
+msgstr "Список данных"
+
+#: admin/obj/settings.php:108 admin/obj/settings.php:109
+#, fuzzy
+msgid "Analysis Search"
+msgstr "Поиск анализа"
+
+#: admin/obj/settings.php:123 admin/obj/settings.php:124
+msgid "Exploration"
+msgstr "Исследование"
+
+#: admin/obj/settings.php:136 admin/obj/settings.php:137
+#, fuzzy
+msgid "Reports"
+msgstr "Отчеты"
+
+#: admin/obj/settings.php:149 admin/obj/settings.php:150
+msgid "Todo Lists"
+msgstr "Списки задач"
+
+#: admin/obj/settings.php:163 admin/obj/settings.php:164
+#, fuzzy
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: admin/obj/settings.php:177 admin/obj/settings.php:178
+#, fuzzy
+msgid "SearchConsole"
+msgstr "SearchConsole"
+
+#: admin/obj/settings.php:199
+msgid "Show Search Console Errors per page"
+msgstr "Показать ошибки Search Console по страницам"
+
+#: admin/obj/settings.php:213
+msgid "Show Vistors Logs per page"
+msgstr "Показать журналы пользователей по страницам"
+
+#: admin/obj/settings.php:227
+msgid "Show Todo data per page"
+msgstr "Показать данные Todo по страницам"
+
+#: admin/obj/settings.php:241
+#, fuzzy
+msgid "Show Data data per page"
+msgstr "Показывать данные на странице"
+
+#: admin/obj/settings.php:255
+#, fuzzy
+msgid "Plugin's Settings"
+msgstr "Настройки плагина"
+
+#: admin/obj/settings.php:289
+#, fuzzy
+msgid "List of Data to display"
+msgstr "Список данных для отображения"
+
+#: admin/obj/settings.php:290
+#, fuzzy
+msgid "Reload Data"
+msgstr "Обновить данные"
+
+#: admin/obj/settings.php:314
+#, fuzzy
+msgid "Analysis of Searches"
+msgstr "Анализ поисковых запросов"
+
+#: admin/obj/settings.php:337
+#, fuzzy
+msgid "Exploration from Google bots"
+msgstr "Исследование от ботов Google"
+
+#: admin/obj/settings.php:338
+msgid "Reload Crawl Data"
+msgstr "Обновить данные"
+
+#: admin/obj/settings.php:367
+msgid "Mitambo global report for "
+msgstr "Глобальный отчет Mitambo для"
+
+#: admin/obj/settings.php:381
+msgid "ToDo"
+msgstr "Задачи"
+
+#: admin/obj/settings.php:405
+msgid "Plugin Core"
+msgstr "Ядро плагина"
+
+#: admin/obj/settings.php:406
+#: user/lib/metabox/display-mitambo-duplicate-content.php:36
+#: user/lib/metabox/display-mitambo-duplicate-description.php:36
+#: user/lib/metabox/display-mitambo-duplicate-perception.php:34
+#: user/lib/metabox/display-mitambo-duplicate-titles.php:36
+#: user/lib/metabox/display-mitambo-keywords.php:35
+#: user/lib/metabox/display-mitambo-link-analysis.php:35
+#: user/lib/metabox/display-mitambo-main-html-tags.php:30
+#: user/lib/metabox/display-mitambo-meta-tags.php:30
+#: user/lib/settings/display-analysis.php:158
+#, fuzzy
+msgid "Refresh Data"
+msgstr "Обновить данные"
+
+#: admin/obj/settings.php:424 user/help.php:97
+#, fuzzy
+msgid "Google Settings"
+msgstr "Настройки Google"
+
+#: admin/obj/settings.php:425 user/help.php:102
+#, fuzzy
+msgid "Mitambo Settings"
+msgstr "Настройки Mitambo"
+
+#: admin/obj/settings.php:426
+#, fuzzy
+msgid "Roles management"
+msgstr "Управление ролями"
+
+#: admin/obj/settings.php:427
+msgid "Plugin support"
+msgstr "Поддержка плагина"
+
+#: admin/obj/settings.php:428
+msgid "Debug Information"
+msgstr "Отладочная информация"
+
+#: admin/obj/settings.php:444 admin/obj/settings.php:465 db/lib/do.php:115
+#, fuzzy
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: admin/obj/settings.php:446 admin/obj/settings.php:467 db/lib/do.php:117
+#: user/lib/settings/display-data.php:105
+msgid "Duplication"
+msgstr "Дублирование"
+
+#: admin/obj/settings.php:447
+msgid "Exposition"
+msgstr "Экспозиция"
+
+#: admin/obj/settings.php:448
+#, fuzzy
+msgid "Intention"
+msgstr "Интенция"
+
+#: admin/obj/settings.php:449
+#, fuzzy
+msgid "Comparison"
+msgstr "Сравнение"
+
+#: admin/obj/settings.php:466 user/lib/settings/display-data.php:104
+#, fuzzy
+msgid "Status"
+msgstr "Статус сканирования недоступен"
+
+#: admin/obj/settings.php:468 user/lib/settings/display-data.php:106
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: admin/obj/settings.php:469
+#, fuzzy
+msgid "Outgoing"
+msgstr "Исходящий"
+
+#: admin/obj/settings.php:528
+msgid "Last refreshed"
+msgstr "Последнее обновление"
+
+#: admin/obj/settings.php:530
+#, fuzzy
+msgid "ago"
+msgstr "назад"
+
+#: admin/obj/settings.php:532
+msgid "Never Refreshed"
+msgstr "Никогда не обновлялось"
+
+#: admin/obj/settings.php:540
+msgid "Last crawled at "
+msgstr "Последнее сканирование в"
+
+#: admin/obj/settings.php:541
+msgid "Never Crawled"
+msgstr "Никогда не сканировалось"
+
+#: admin/obj/settings.php:549
+#, fuzzy
+msgid "Download CSV"
+msgstr "Скачать CSV"
+
+#: core/api-call/mitambo/dashboard-widgets.php:60
+msgid "No Crawler status available"
+msgstr "Статус сканирования недоступен"
+
+#: core/api-call/mitambo/dashboard-widgets.php:64
+#, fuzzy
+msgid "No Subscription status available"
+msgstr "Статус подписки не доступен"
+
+#: core/lib/data-cat-tabs.php:111
+#, fuzzy
+msgid "None"
+msgstr "Ничего"
+
+#: core/lib/data-cat-tabs.php:112
+#, fuzzy
+msgid "1 Word"
+msgstr "1 слово"
+
+#: core/lib/data-cat-tabs.php:113
+msgid "2 Words"
+msgstr "2 слова"
+
+#: core/lib/data-cat-tabs.php:114
+msgid "3 Words"
+msgstr "3 слова"
+
+#: core/lib/data-cat-tabs.php:115
+#, fuzzy
+msgid "4 Words"
+msgstr "4 слова"
+
+#: core/lib/data-cat-tabs.php:116
+#, fuzzy
+msgid "5 Words"
+msgstr "5 слов"
+
+#: core/lib/data-cat-tabs.php:119
+#, fuzzy
+msgid "Similar content"
+msgstr "Похожие материалы"
+
+#: core/lib/get-authors.php:25
+#, fuzzy
+msgid "All Assignees"
+msgstr "Все получатели"
+
+#: core/lib/jwt/prepare-api.php:305
+msgid "for the following request: "
+msgstr "для следующего запроса:"
+
+#: core/lib/jwt/prepare-api.php:417
+msgid "ERR_INTERNAL_SERVER_ERROR"
+msgstr "Internal server error: ∵error$ "
+
+#: core/lib/jwt/prepare-api.php:418
+msgid "ERR_PROJECT_NOT_CRAWLED"
+msgstr "Проект ∵project$ еще не был отсканирован"
+
+#: core/lib/jwt/prepare-api.php:419
+msgid "ERR_PAGE_NOT_CRAWLED"
+msgstr "Страница ∵page$ еще не была отсканирована"
+
+#: core/lib/jwt/prepare-api.php:420
+msgid "ERR_X_MITAMBO_URL_HEADER_REQUIRED"
+msgstr "Требуется заголовок X-Mitambo-URL"
+
+#: core/lib/jwt/prepare-api.php:421
+msgid "ERR_WRONG_PERCEPTION"
+msgstr "Запрос для восприятия ∵perception$ не поддерживается"
+
+#: core/lib/jwt/prepare-api.php:422
+msgid "ERR_PROJECT_NOT_FOUND"
+msgstr ""
+"Проект с данным токеном не найден. Пожалуйста пройдите аутентификацию в "
+"Mitambo  повторно"
+
+#: core/lib/oauth/prepare-api.php:116
+#, fuzzy
+msgid " Error google"
+msgstr "Ошибка Google"
+
+#: core/lib/oauth/prepare-api.php:177
+#, fuzzy
+msgid "invalid_grant"
+msgstr "invalid_grant"
+
+#: core/lib/oauth/prepare-api.php:178
+msgid "Invalid Category and Platform combination"
+msgstr "Недопустимая комбинация категории и платформы"
+
+#: core/lib/oauth/prepare-api.php:202
+msgid "Error refresh token for google Search Console - Check the Configuration"
+msgstr ""
+"Ошибка обновления токена для Google Search Console - проверьте конфигурацию"
+
+#: core/lib/oauth/prepare-api.php:203
+#, fuzzy
+msgid "Refresh Token"
+msgstr "Обновить токен"
+
+#: db/lib/csv-build.php:65 db/lib/csv-build.php:84 db/lib/csv-build.php:102
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#: db/lib/csv-build.php:70
+#, fuzzy
+msgid "Platform"
+msgstr "Платформа"
+
+#: db/lib/csv-build.php:104
+#, fuzzy
+msgid "Post Type"
+msgstr "Тип записи"
+
+#: db/lib/csv-build.php:105
+#, fuzzy
+msgid "Type"
+msgstr "Тип"
+
+#: db/lib/csv-build.php:163 db/lib/do.php:123
+msgid "Low"
+msgstr "Низкий"
+
+#: db/lib/csv-build.php:165 db/lib/do.php:124
+#, fuzzy
+msgid "Medium"
+msgstr "Средний"
+
+#: db/lib/csv-build.php:167 db/lib/do.php:125
+msgid "High"
+msgstr "Высокий"
+
+#: db/lib/do.php:114
+#, fuzzy
+msgid "All Categories"
+msgstr "Все рубрики"
+
+#: db/lib/do.php:122
+#, fuzzy
+msgid "All Priorities"
+msgstr "Все приоритеты"
+
+#: main.php:121 main.php:167 main.php:254 main.php:282
+#, fuzzy
+msgid "Successfully refreshed Google data"
+msgstr "Данные Google обновлены"
+
+#: main.php:123
+#, fuzzy
+msgid "Check Google configuration"
+msgstr "Проверьте конфигурацию Google"
+
+#: main.php:145
+msgid "Successfully clean Mitambo data"
+msgstr "Данные Mitambo успешно отчищены"
+
+#: main.php:188 main.php:211 main.php:221 main.php:278
+msgid "Successfully refreshed Mitambo data"
+msgstr "Данные Mitambo успешно обновленны"
+
+#: user/help.php:92
+#, fuzzy
+msgid "General Info"
+msgstr "Общая информация"
+
+#: user/help.php:93
+#, fuzzy
+msgid "General Help content."
+msgstr "Общий справочный контент."
+
+#: user/help.php:98
+msgid "Google Help content."
+msgstr "Справка Google."
+
+#: user/help.php:103
+msgid "Mitambo Help content."
+msgstr "Справка Mitambo."
+
+#: user/help.php:107 user/lib/settings/display-role.php:82
+#, fuzzy
+msgid "Roles"
+msgstr "Роли"
+
+#: user/help.php:108
+msgid "Roles Help content."
+msgstr "Справка по ролям."
+
+#: user/help.php:112
+#, fuzzy
+msgid "More Information"
+msgstr "Больше информации"
+
+#: user/help.php:112
+#, fuzzy
+msgid "Documentation on how to manage your settings"
+msgstr "Документация по управлению настройками"
+
+#: user/help.php:112
+#, fuzzy
+msgid "Official blog"
+msgstr "Официальный блог"
+
+#: user/help.php:127 user/help.php:147 user/help.php:167 user/help.php:187
+#: user/help.php:207 user/help.php:227
+#, fuzzy
+msgid "Introduction"
+msgstr "Введение"
+
+#: user/lib/metabox/display-google-keywords.php:34
+#, fuzzy
+msgid "Refresh Google Data"
+msgstr "Обновить данные Google"
+
+#: user/lib/metabox/display-google-keywords.php:91
+msgid "Still no keywords display on Google Search Console"
+msgstr "По-прежнему не отображаются ключевые слова в Google Search Console"
+
+#: user/lib/metabox/display-mitambo-duplicate-description.php:80
+#: user/lib/metabox/display-mitambo-keywords.php:84
+msgid "Resume"
+msgstr "Краткая информация"
+
+#: user/lib/metabox/display-mitambo-duplicate-description.php:81
+#: user/lib/metabox/display-mitambo-keywords.php:85
+msgid "Keywords Simple"
+msgstr "Простые ключевые слова"
+
+#: user/lib/metabox/display-mitambo-duplicate-description.php:82
+#: user/lib/metabox/display-mitambo-keywords.php:86
+#, fuzzy
+msgid "Double"
+msgstr "Двойной"
+
+#: user/lib/metabox/display-mitambo-duplicate-description.php:83
+#: user/lib/metabox/display-mitambo-keywords.php:87
+msgid "Triple"
+msgstr "Тройной"
+
+#: user/lib/metabox/display-mitambo-link-analysis.php:83
+#, fuzzy
+msgid "Summary"
+msgstr "Резюме"
+
+#: user/lib/metabox/display-mitambo-link-analysis.php:86
+#, fuzzy
+msgid "Details"
+msgstr "Детали"
+
+#: user/lib/metabox/display-todo.php:69 user/lib/metabox/display-todo.php:113
+msgid "Add action to be taken"
+msgstr "Добавить действие"
+
+#: user/lib/metabox/display-todo.php:77 user/lib/metabox/display-todo.php:120
+#, fuzzy
+msgid "Click to select due date"
+msgstr "Нажмите, чтобы выбрать дату завершения"
+
+#: user/lib/metabox/display-todo.php:87 user/lib/metabox/display-todo.php:126
+#, fuzzy
+msgid "Create Action"
+msgstr "Создать действие"
+
+#: user/lib/metabox/display-todo.php:92 user/lib/metabox/display-todo.php:130
+msgid "You need to publish the post in order to create a new Todo action"
+msgstr "Вам нужно опубликовать статью, чтобы создать новую задачу"
+
+#: user/lib/metabox/display-todo.php:150 user/lib/metabox/display-todo.php:200
+#, fuzzy
+msgid "All fields are required"
+msgstr "Все поля обязательны для заполнения"
+
+#: user/lib/metabox/display-todo.php:229
+#, fuzzy
+msgid "Successfully inserted"
+msgstr "Вставлено успешно"
+
+#: user/lib/metabox/display-todo.php:231
+#, fuzzy
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: user/lib/settings-fields.php:48
+msgid "Token"
+msgstr "Токен"
+
+#: user/lib/settings-fields.php:50
+#, fuzzy
+msgid "Website"
+msgstr "Сайт"
+
+#: user/lib/settings-fields.php:69
+msgid ""
+"To allow WP Search Console to fetch your Mitambo Search Console data we need "
+"to receive your authorization"
+msgstr ""
+"Чтобы WP Search Console могла получать ваши данные Mitambo Search Console, "
+"нам необходимо получить ваше разрешение"
+
+#: user/lib/settings-fields.php:74
+#, fuzzy
+msgid "Please enter the Mitambo Authorization Code in the field below"
+msgstr "Введите код авторизации Mitambo в поле ниже"
+
+#: user/lib/settings-fields.php:89
+#, fuzzy
+msgid ""
+"To allow WP Search Console to fetch your Google Search Console data we need "
+"to receive your authorization"
+msgstr ""
+"Чтобы WP Search Console могла получать ваши данные в Search Console, нам "
+"необходимо получить ваше разрешение"
+
+#: user/lib/settings-fields.php:94
+msgid "Please enter the Google Authorization Code in the field below"
+msgstr "Пожалуйста, введите код авторизации Google в поле ниже"
+
+#: user/lib/settings-fields.php:99
+#, fuzzy
+msgid ""
+"Analyse your search performance in the Google Search. Filter and Compare "
+"your results to better understand your vistors."
+msgstr ""
+"Проанализируйте эффективность поиска в Поиске Google. Отфильтруйте и "
+"сравните результаты, чтобы лучше понять ваши vistors."
+
+#: user/lib/settings-fields.php:99
+#, fuzzy
+msgid "Read more"
+msgstr "Подробнее"
+
+#: user/lib/settings/display-analysis.php:38
+msgid "NOTE: Metrics are calculated with your current combination of settings"
+msgstr ""
+"ПРИМЕЧАНИЕ: Показатели рассчитываются с учетом текущей комбинации параметров"
+
+#: user/lib/settings/display-analysis.php:151
+msgid "keyword"
+msgstr "ключевое слово"
+
+#: user/lib/settings/display-analysis.php:160
+msgid "Reset"
+msgstr "Сбросить"
+
+#: user/lib/settings/display-analysis.php:246
+#, fuzzy
+msgid "Total Number of Clicks"
+msgstr "Общее число кликов"
+
+#: user/lib/settings/display-analysis.php:247
+#, fuzzy
+msgid "Total Number of Impressions"
+msgstr "Общее количество показов"
+
+#: user/lib/settings/display-analysis.php:248
+#, fuzzy
+msgid "CTR Average"
+msgstr "Среднее значение CTR"
+
+#: user/lib/settings/display-analysis.php:249
+#, fuzzy
+msgid "Average Position"
+msgstr "Средняя позиция"
+
+#: user/lib/settings/display-analysis.php:250
+#, fuzzy
+msgid "Total Requests"
+msgstr "Всего запросов"
+
+#: user/lib/settings/display-analysis.php:271
+#, fuzzy
+msgid "Countries"
+msgstr "Страны"
+
+#: user/lib/settings/display-analysis.php:272
+#, fuzzy
+msgid "Devices"
+msgstr "Устройства"
+
+#: user/lib/settings/display-analysis.php:273
+#, fuzzy
+msgid "Type of Searches"
+msgstr "Тип поиска"
+
+#: user/lib/settings/display-analysis.php:274
+#, fuzzy
+msgid "Date"
+msgstr "Дата"
+
+#: user/lib/settings/display-analysis.php:337
+#, fuzzy
+msgid "Last 7 days"
+msgstr "Последние 7 дней"
+
+#: user/lib/settings/display-analysis.php:338
+#, fuzzy
+msgid "Last 28 days"
+msgstr "Последние 28 дней"
+
+#: user/lib/settings/display-analysis.php:339
+#, fuzzy
+msgid "Last 90 days"
+msgstr "Последние 90 дней"
+
+#: user/lib/settings/display-analysis.php:348
+msgid "Web"
+msgstr "Сайт"
+
+#: user/lib/settings/display-analysis.php:349
+#, fuzzy
+msgid "Image"
+msgstr "Изображение"
+
+#: user/lib/settings/display-analysis.php:350
+msgid "Video"
+msgstr "Видео"
+
+#: user/lib/settings/display-analysis.php:359
+#: user/lib/settings/display-explore.php:72
+#, fuzzy
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: user/lib/settings/display-analysis.php:360
+#, fuzzy
+msgid "Mobile"
+msgstr "Мобильный"
+
+#: user/lib/settings/display-analysis.php:361
+#, fuzzy
+msgid "Tablet"
+msgstr "Планшет"
+
+#: user/lib/settings/display-analysis.php:370
+#, fuzzy
+msgid "All URLs"
+msgstr "Все URL-адреса"
+
+#: user/lib/settings/display-analysis.php:371
+#, fuzzy
+msgid "URLs containing"
+msgstr "URL-адреса, содержащие"
+
+#: user/lib/settings/display-analysis.php:372
+#, fuzzy
+msgid "URLs not containing"
+msgstr "URL-адреса, не содержащие"
+
+#: user/lib/settings/display-analysis.php:373
+msgid "URL is exactly"
+msgstr "Именно это URL-адрес"
+
+#: user/lib/settings/display-analysis.php:382
+#, fuzzy
+msgid "All Queries"
+msgstr "Все запросы"
+
+#: user/lib/settings/display-analysis.php:383
+#, fuzzy
+msgid "Queries containing"
+msgstr "Запросы, содержащие"
+
+#: user/lib/settings/display-analysis.php:384
+#, fuzzy
+msgid "Queries not containing"
+msgstr "Запросы, не содержащие"
+
+#: user/lib/settings/display-analysis.php:385
+#, fuzzy
+msgid "Query is exactly"
+msgstr "Запрос точно"
+
+#: user/lib/settings/display-analysis.php:402
+#, fuzzy
+msgid "Aruba"
+msgstr "Аруба"
+
+#: user/lib/settings/display-analysis.php:403
+#, fuzzy
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: user/lib/settings/display-analysis.php:404
+#, fuzzy
+msgid "Angola"
+msgstr "Ангола"
+
+#: user/lib/settings/display-analysis.php:405
+#, fuzzy
+msgid "Anguilla"
+msgstr "Ангилья"
+
+#: user/lib/settings/display-analysis.php:406
+#, fuzzy
+msgid "Åland Islands"
+msgstr "Аландские острова"
+
+#: user/lib/settings/display-analysis.php:407
+#, fuzzy
+msgid "Albania"
+msgstr "Албания"
+
+#: user/lib/settings/display-analysis.php:408
+#, fuzzy
+msgid "Andorra"
+msgstr "Андорра"
+
+#: user/lib/settings/display-analysis.php:409
+#, fuzzy
+msgid "United Arab Emirates"
+msgstr "Объединённые Арабские Эмираты"
+
+#: user/lib/settings/display-analysis.php:410
+#, fuzzy
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: user/lib/settings/display-analysis.php:411
+#, fuzzy
+msgid "Armenia"
+msgstr "Армения"
+
+#: user/lib/settings/display-analysis.php:412
+#, fuzzy
+msgid "American Samoa"
+msgstr "Американское Самоа"
+
+#: user/lib/settings/display-analysis.php:413
+#, fuzzy
+msgid "Antarctica"
+msgstr "Антарктида"
+
+#: user/lib/settings/display-analysis.php:414
+#, fuzzy
+msgid "French Southern Territories"
+msgstr "Южные Французские Территории"
+
+#: user/lib/settings/display-analysis.php:415
+#, fuzzy
+msgid "Antigua and Barbuda"
+msgstr "Антигуа и Барбуда"
+
+#: user/lib/settings/display-analysis.php:416
+#, fuzzy
+msgid "Australia"
+msgstr "Австралия"
+
+#: user/lib/settings/display-analysis.php:417
+#, fuzzy
+msgid "Austria"
+msgstr "Австрия"
+
+#: user/lib/settings/display-analysis.php:418
+#, fuzzy
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: user/lib/settings/display-analysis.php:419
+#, fuzzy
+msgid "Burundi"
+msgstr "Бурунди"
+
+#: user/lib/settings/display-analysis.php:420
+#, fuzzy
+msgid "Belgium"
+msgstr "Бельгия"
+
+#: user/lib/settings/display-analysis.php:421
+#, fuzzy
+msgid "Benin"
+msgstr "Бенин"
+
+#: user/lib/settings/display-analysis.php:422
+#, fuzzy
+msgid "Bonaire, Sint Eustatius and Saba"
+msgstr "Бонэйр, Синт-Эстатиус и Саба"
+
+#: user/lib/settings/display-analysis.php:423
+#, fuzzy
+msgid "Burkina Faso"
+msgstr "Буркина-Фасо"
+
+#: user/lib/settings/display-analysis.php:424
+#, fuzzy
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: user/lib/settings/display-analysis.php:425
+#, fuzzy
+msgid "Bulgaria"
+msgstr "Болгария"
+
+#: user/lib/settings/display-analysis.php:426
+#, fuzzy
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: user/lib/settings/display-analysis.php:427
+#, fuzzy
+msgid "Bahamas"
+msgstr "Багамские Острова"
+
+#: user/lib/settings/display-analysis.php:428
+#, fuzzy
+msgid "Bosnia and Herzegovina"
+msgstr "Босния и Герцеговина"
+
+#: user/lib/settings/display-analysis.php:429
+#, fuzzy
+msgid "Saint Barthélemy"
+msgstr "Сен-Бартельми"
+
+#: user/lib/settings/display-analysis.php:430
+#, fuzzy
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: user/lib/settings/display-analysis.php:431
+#, fuzzy
+msgid "Belize"
+msgstr "Белиз"
+
+#: user/lib/settings/display-analysis.php:432
+#, fuzzy
+msgid "Bermuda"
+msgstr "Бермудские Острова"
+
+#: user/lib/settings/display-analysis.php:433
+#, fuzzy
+msgid "Bolivia, Plurinational State of"
+msgstr "Боливия"
+
+#: user/lib/settings/display-analysis.php:434
+#, fuzzy
+msgid "Brazil"
+msgstr "Бразилия"
+
+#: user/lib/settings/display-analysis.php:435
+#, fuzzy
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: user/lib/settings/display-analysis.php:436
+#, fuzzy
+msgid "Brunei Darussalam"
+msgstr "Бруней-Даруссалам"
+
+#: user/lib/settings/display-analysis.php:437
+#, fuzzy
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: user/lib/settings/display-analysis.php:438
+#, fuzzy
+msgid "Bouvet Island"
+msgstr "Остров Буве"
+
+#: user/lib/settings/display-analysis.php:439
+#, fuzzy
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: user/lib/settings/display-analysis.php:440
+#, fuzzy
+msgid "Central African Republic"
+msgstr "Центрально-Африканская Республика"
+
+#: user/lib/settings/display-analysis.php:441
+#, fuzzy
+msgid "Canada"
+msgstr "Канада"
+
+#: user/lib/settings/display-analysis.php:442
+#, fuzzy
+msgid "Cocos (Keeling) Islands"
+msgstr "Кокосовые (Килинг) острова"
+
+#: user/lib/settings/display-analysis.php:443
+#, fuzzy
+msgid "Switzerland"
+msgstr "Швейцария"
+
+#: user/lib/settings/display-analysis.php:444
+#, fuzzy
+msgid "Chile"
+msgstr "Чили"
+
+#: user/lib/settings/display-analysis.php:445
+#, fuzzy
+msgid "China"
+msgstr "Китай"
+
+#: user/lib/settings/display-analysis.php:446
+#, fuzzy
+msgid "Côte d'Ivoire"
+msgstr "Кот-д'Ивуар"
+
+#: user/lib/settings/display-analysis.php:447
+#, fuzzy
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: user/lib/settings/display-analysis.php:449
+#, fuzzy
+msgid "Congo"
+msgstr "Конго"
+
+#: user/lib/settings/display-analysis.php:450
+#, fuzzy
+msgid "Cook Islands"
+msgstr "Острова Кука"
+
+#: user/lib/settings/display-analysis.php:451
+#, fuzzy
+msgid "Colombia"
+msgstr "Колумбия"
+
+#: user/lib/settings/display-analysis.php:452
+#, fuzzy
+msgid "Comoros"
+msgstr "Коморские острова"
+
+#: user/lib/settings/display-analysis.php:453
+#, fuzzy
+msgid "Cabo Verde"
+msgstr "Кабо-Верде"
+
+#: user/lib/settings/display-analysis.php:454
+#, fuzzy
+msgid "Costa Rica"
+msgstr "Коста-Рика"
+
+#: user/lib/settings/display-analysis.php:455
+#, fuzzy
+msgid "Cuba"
+msgstr "Куба"
+
+#: user/lib/settings/display-analysis.php:456
+#, fuzzy
+msgid "Curaçao"
+msgstr "Кюрасао"
+
+#: user/lib/settings/display-analysis.php:457
+#, fuzzy
+msgid "Christmas Island"
+msgstr "Остров Рождества"
+
+#: user/lib/settings/display-analysis.php:458
+#, fuzzy
+msgid "Cayman Islands"
+msgstr "Каймановы острова"
+
+#: user/lib/settings/display-analysis.php:459
+#, fuzzy
+msgid "Cyprus"
+msgstr "Кипр"
+
+#: user/lib/settings/display-analysis.php:460
+#, fuzzy
+msgid "Czech Republic"
+msgstr "Чешская Республика"
+
+#: user/lib/settings/display-analysis.php:461
+#, fuzzy
+msgid "Germany"
+msgstr "Германия"
+
+#: user/lib/settings/display-analysis.php:462
+#, fuzzy
+msgid "Djibouti"
+msgstr "Джибути"
+
+#: user/lib/settings/display-analysis.php:463
+#, fuzzy
+msgid "Dominica"
+msgstr "Доминика"
+
+#: user/lib/settings/display-analysis.php:464
+#, fuzzy
+msgid "Denmark"
+msgstr "Дания"
+
+#: user/lib/settings/display-analysis.php:465
+#, fuzzy
+msgid "Dominican Republic"
+msgstr "Доминиканская Республика"
+
+#: user/lib/settings/display-analysis.php:466
+#, fuzzy
+msgid "Algeria"
+msgstr "Алжир"
+
+#: user/lib/settings/display-analysis.php:467
+#, fuzzy
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: user/lib/settings/display-analysis.php:468
+#, fuzzy
+msgid "Egypt"
+msgstr "Египет"
+
+#: user/lib/settings/display-analysis.php:469
+#, fuzzy
+msgid "Eritrea"
+msgstr "Эритрея"
+
+#: user/lib/settings/display-analysis.php:470
+#, fuzzy
+msgid "Western Sahara"
+msgstr "Западная Сахара"
+
+#: user/lib/settings/display-analysis.php:471
+#, fuzzy
+msgid "Spain"
+msgstr "Испания"
+
+#: user/lib/settings/display-analysis.php:472
+#, fuzzy
+msgid "Estonia"
+msgstr "Эстония"
+
+#: user/lib/settings/display-analysis.php:473
+#, fuzzy
+msgid "Ethiopia"
+msgstr "Эфиопия"
+
+#: user/lib/settings/display-analysis.php:474
+#, fuzzy
+msgid "Finland"
+msgstr "Финляндия"
+
+#: user/lib/settings/display-analysis.php:475
+#, fuzzy
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: user/lib/settings/display-analysis.php:476
+#, fuzzy
+msgid "Falkland Islands (Malvinas)"
+msgstr "Фолклендские (Мальвинские) острова"
+
+#: user/lib/settings/display-analysis.php:477
+#, fuzzy
+msgid "France"
+msgstr "Франция"
+
+#: user/lib/settings/display-analysis.php:478
+#, fuzzy
+msgid "Faroe Islands"
+msgstr "Фарерские острова"
+
+#: user/lib/settings/display-analysis.php:479
+#, fuzzy
+msgid "Micronesia, Federated States of"
+msgstr "Микронезия"
+
+#: user/lib/settings/display-analysis.php:480
+#, fuzzy
+msgid "Gabon"
+msgstr "Гондурас"
+
+#: user/lib/settings/display-analysis.php:481
+#, fuzzy
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+#: user/lib/settings/display-analysis.php:482
+#, fuzzy
+msgid "Georgia"
+msgstr "Грузия"
+
+#: user/lib/settings/display-analysis.php:483
+#, fuzzy
+msgid "Guernsey"
+msgstr "Гернси"
+
+#: user/lib/settings/display-analysis.php:484
+#, fuzzy
+msgid "Ghana"
+msgstr "Гана"
+
+#: user/lib/settings/display-analysis.php:485
+#, fuzzy
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: user/lib/settings/display-analysis.php:486
+#, fuzzy
+msgid "Guinea"
+msgstr "Гвинея"
+
+#: user/lib/settings/display-analysis.php:487
+#, fuzzy
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: user/lib/settings/display-analysis.php:488
+#, fuzzy
+msgid "Gambia"
+msgstr "Gambia"
+
+#: user/lib/settings/display-analysis.php:489
+#, fuzzy
+msgid "Guinea-Bissau"
+msgstr "Гвинея - бусан"
+
+#: user/lib/settings/display-analysis.php:490
+#, fuzzy
+msgid "Equatorial Guinea"
+msgstr "Экваториальная Гвинея"
+
+#: user/lib/settings/display-analysis.php:491
+#, fuzzy
+msgid "Greece"
+msgstr "Греция"
+
+#: user/lib/settings/display-analysis.php:492
+#, fuzzy
+msgid "Grenada"
+msgstr "Гренада"
+
+#: user/lib/settings/display-analysis.php:493
+#, fuzzy
+msgid "Greenland"
+msgstr "Гренландия"
+
+#: user/lib/settings/display-analysis.php:494
+#, fuzzy
+msgid "Guatemala"
+msgstr "Гвателмала"
+
+#: user/lib/settings/display-analysis.php:495
+#, fuzzy
+msgid "French Guiana"
+msgstr "Французская Гвиана"
+
+#: user/lib/settings/display-analysis.php:496
+#, fuzzy
+msgid "Guam"
+msgstr "გუამი"
+
+#: user/lib/settings/display-analysis.php:497
+#, fuzzy
+msgid "Guyana"
+msgstr "Гайана"
+
+#: user/lib/settings/display-analysis.php:498
+#, fuzzy
+msgid "Hong Kong"
+msgstr "Гонгконг"
+
+#: user/lib/settings/display-analysis.php:500
+#, fuzzy
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: user/lib/settings/display-analysis.php:501
+#, fuzzy
+msgid "Croatia"
+msgstr "Хорватия"
+
+#: user/lib/settings/display-analysis.php:502
+#, fuzzy
+msgid "Haiti"
+msgstr "Гаити"
+
+#: user/lib/settings/display-analysis.php:503
+#, fuzzy
+msgid "Hungary"
+msgstr "Венгрия"
+
+#: user/lib/settings/display-analysis.php:504
+#, fuzzy
+msgid "Indonesia"
+msgstr "Индонезия"
+
+#: user/lib/settings/display-analysis.php:505
+#, fuzzy
+msgid "Isle of Man"
+msgstr "Остров Мэн"
+
+#: user/lib/settings/display-analysis.php:506
+#, fuzzy
+msgid "India"
+msgstr "Индия"
+
+#: user/lib/settings/display-analysis.php:507
+#, fuzzy
+msgid "British Indian Ocean Territory"
+msgstr "Британская Территория в Индийском Океане"
+
+#: user/lib/settings/display-analysis.php:508
+#, fuzzy
+msgid "Ireland"
+msgstr "Ирландия"
+
+#: user/lib/settings/display-analysis.php:509
+#, fuzzy
+msgid "Iran, Islamic Republic of"
+msgstr "Иран"
+
+#: user/lib/settings/display-analysis.php:510
+#, fuzzy
+msgid "Iraq"
+msgstr "Ирак"
+
+#: user/lib/settings/display-analysis.php:511
+#, fuzzy
+msgid "Iceland"
+msgstr "Исландия"
+
+#: user/lib/settings/display-analysis.php:512
+#, fuzzy
+msgid "Israel"
+msgstr "Израиль"
+
+#: user/lib/settings/display-analysis.php:513
+#, fuzzy
+msgid "Italy"
+msgstr "Италия"
+
+#: user/lib/settings/display-analysis.php:514
+#, fuzzy
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: user/lib/settings/display-analysis.php:515
+#, fuzzy
+msgid "Jersey"
+msgstr "Форма"
+
+#: user/lib/settings/display-analysis.php:516
+#, fuzzy
+msgid "Jordan"
+msgstr "Иордания"
+
+#: user/lib/settings/display-analysis.php:517
+#, fuzzy
+msgid "Japan"
+msgstr "Япония"
+
+#: user/lib/settings/display-analysis.php:518
+#, fuzzy
+msgid "Kazakhstan"
+msgstr "ყაზახეთი"
+
+#: user/lib/settings/display-analysis.php:519
+#, fuzzy
+msgid "Kenya"
+msgstr "Кения"
+
+#: user/lib/settings/display-analysis.php:520
+#, fuzzy
+msgid "Kyrgyzstan"
+msgstr "Киргизтан"
+
+#: user/lib/settings/display-analysis.php:521
+#, fuzzy
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: user/lib/settings/display-analysis.php:522
+#, fuzzy
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: user/lib/settings/display-analysis.php:523
+#, fuzzy
+msgid "Saint Kitts and Nevis"
+msgstr "Сент-Китс и Невис"
+
+#: user/lib/settings/display-analysis.php:524
+#, fuzzy
+msgid "Korea, Republic of"
+msgstr "Корея"
+
+#: user/lib/settings/display-analysis.php:525
+#, fuzzy
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: user/lib/settings/display-analysis.php:527
+#, fuzzy
+msgid "Lebanon"
+msgstr "Лебанон"
+
+#: user/lib/settings/display-analysis.php:528
+#, fuzzy
+msgid "Liberia"
+msgstr "Либерия"
+
+#: user/lib/settings/display-analysis.php:529
+msgid "Libya"
+msgstr "Ливия"
+
+#: user/lib/settings/display-analysis.php:530
+#, fuzzy
+msgid "Saint Lucia"
+msgstr "Сент-Люсия"
+
+#: user/lib/settings/display-analysis.php:531
+#, fuzzy
+msgid "Liechtenstein"
+msgstr "Лихтенштейн"
+
+#: user/lib/settings/display-analysis.php:532
+#, fuzzy
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#: user/lib/settings/display-analysis.php:533
+#, fuzzy
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: user/lib/settings/display-analysis.php:534
+#, fuzzy
+msgid "Lithuania"
+msgstr "Литва"
+
+#: user/lib/settings/display-analysis.php:535
+#, fuzzy
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: user/lib/settings/display-analysis.php:536
+#, fuzzy
+msgid "Latvia"
+msgstr "Латвия"
+
+#: user/lib/settings/display-analysis.php:537
+#, fuzzy
+msgid "Macao"
+msgstr "Macao"
+
+#: user/lib/settings/display-analysis.php:538
+#, fuzzy
+msgid "Saint Martin (French part)"
+msgstr "Сен-Мартен (Французская часть)"
+
+#: user/lib/settings/display-analysis.php:539
+#, fuzzy
+msgid "Morocco"
+msgstr "Марокко"
+
+#: user/lib/settings/display-analysis.php:540
+#, fuzzy
+msgid "Monaco"
+msgstr "Монако"
+
+#: user/lib/settings/display-analysis.php:541
+#, fuzzy
+msgid "Moldova, Republic of"
+msgstr "Молдова"
+
+#: user/lib/settings/display-analysis.php:542
+#, fuzzy
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: user/lib/settings/display-analysis.php:543
+msgid "Maldives"
+msgstr "Мальдивские о-ва"
+
+#: user/lib/settings/display-analysis.php:544
+#, fuzzy
+msgid "Mexico"
+msgstr "Мексика"
+
+#: user/lib/settings/display-analysis.php:545
+#, fuzzy
+msgid "Marshall Islands"
+msgstr "Маршалловы острова"
+
+#: user/lib/settings/display-analysis.php:547
+#, fuzzy
+msgid "Mali"
+msgstr "Мали"
+
+#: user/lib/settings/display-analysis.php:548
+#, fuzzy
+msgid "Malta"
+msgstr "Мальта"
+
+#: user/lib/settings/display-analysis.php:549
+#, fuzzy
+msgid "Myanmar"
+msgstr "Муанамар"
+
+#: user/lib/settings/display-analysis.php:550
+#, fuzzy
+msgid "Montenegro"
+msgstr "Монтенегро"
+
+#: user/lib/settings/display-analysis.php:551
+#, fuzzy
+msgid "Mongolia"
+msgstr "Монголия"
+
+#: user/lib/settings/display-analysis.php:552
+#, fuzzy
+msgid "Northern Mariana Islands"
+msgstr "Северные Марианские Острова"
+
+#: user/lib/settings/display-analysis.php:553
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: user/lib/settings/display-analysis.php:554
+#, fuzzy
+msgid "Mauritania"
+msgstr "Мавритания"
+
+#: user/lib/settings/display-analysis.php:555
+#, fuzzy
+msgid "Montserrat"
+msgstr "Монсеррат"
+
+#: user/lib/settings/display-analysis.php:556
+#, fuzzy
+msgid "Martinique"
+msgstr "Мартиника"
+
+#: user/lib/settings/display-analysis.php:557
+#, fuzzy
+msgid "Mauritius"
+msgstr "Мавритания"
+
+#: user/lib/settings/display-analysis.php:558
+#, fuzzy
+msgid "Malawi"
+msgstr "Малави"
+
+#: user/lib/settings/display-analysis.php:559
+#, fuzzy
+msgid "Malaysia"
+msgstr "Малайзия"
+
+#: user/lib/settings/display-analysis.php:560
+#, fuzzy
+msgid "Mayotte"
+msgstr "Майотта"
+
+#: user/lib/settings/display-analysis.php:561
+#, fuzzy
+msgid "Namibia"
+msgstr "Намбия"
+
+#: user/lib/settings/display-analysis.php:562
+#, fuzzy
+msgid "New Caledonia"
+msgstr "Новая Каледония"
+
+#: user/lib/settings/display-analysis.php:563
+#, fuzzy
+msgid "Niger"
+msgstr "Нигер"
+
+#: user/lib/settings/display-analysis.php:564
+#, fuzzy
+msgid "Norfolk Island"
+msgstr "Остров Норфолк"
+
+#: user/lib/settings/display-analysis.php:565
+msgid "Nigeria"
+msgstr "Нигерия"
+
+#: user/lib/settings/display-analysis.php:566
+#, fuzzy
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: user/lib/settings/display-analysis.php:567
+#, fuzzy
+msgid "Niue"
+msgstr "Ниуэ"
+
+#: user/lib/settings/display-analysis.php:568
+#, fuzzy
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+#: user/lib/settings/display-analysis.php:569
+#, fuzzy
+msgid "Norway"
+msgstr "Норвегия"
+
+#: user/lib/settings/display-analysis.php:570
+#, fuzzy
+msgid "Nepal"
+msgstr "Непал"
+
+#: user/lib/settings/display-analysis.php:571
+#, fuzzy
+msgid "Nauru"
+msgstr "Науру"
+
+#: user/lib/settings/display-analysis.php:572
+#, fuzzy
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+#: user/lib/settings/display-analysis.php:573
+#, fuzzy
+msgid "Oman"
+msgstr "Оман"
+
+#: user/lib/settings/display-analysis.php:574
+#, fuzzy
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: user/lib/settings/display-analysis.php:575
+#, fuzzy
+msgid "Panama"
+msgstr "Панама"
+
+#: user/lib/settings/display-analysis.php:576
+#, fuzzy
+msgid "Pitcairn"
+msgstr "Острова Питкэрн"
+
+#: user/lib/settings/display-analysis.php:577
+#, fuzzy
+msgid "Peru"
+msgstr "Перу"
+
+#: user/lib/settings/display-analysis.php:578
+#, fuzzy
+msgid "Philippines"
+msgstr "Филиппины"
+
+#: user/lib/settings/display-analysis.php:579
+#, fuzzy
+msgid "Palau"
+msgstr "Палау"
+
+#: user/lib/settings/display-analysis.php:580
+#, fuzzy
+msgid "Papua New Guinea"
+msgstr "Папуа Новая Гвинея"
+
+#: user/lib/settings/display-analysis.php:581
+#, fuzzy
+msgid "Poland"
+msgstr "Польша"
+
+#: user/lib/settings/display-analysis.php:582
+#, fuzzy
+msgid "Puerto Rico"
+msgstr "Пуэрто-Рико"
+
+#: user/lib/settings/display-analysis.php:584
+#, fuzzy
+msgid "Portugal"
+msgstr "Португалия"
+
+#: user/lib/settings/display-analysis.php:585
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: user/lib/settings/display-analysis.php:586
+#, fuzzy
+msgid "Palestine, State of"
+msgstr "Палестина, штат"
+
+#: user/lib/settings/display-analysis.php:587
+#, fuzzy
+msgid "French Polynesia"
+msgstr "Французская Полинезия"
+
+#: user/lib/settings/display-analysis.php:588
+#, fuzzy
+msgid "Qatar"
+msgstr "Катар"
+
+#: user/lib/settings/display-analysis.php:589
+#, fuzzy
+msgid "Réunion"
+msgstr "Реюньон"
+
+#: user/lib/settings/display-analysis.php:590
+#, fuzzy
+msgid "Romania"
+msgstr "Румыния"
+
+#: user/lib/settings/display-analysis.php:591
+#, fuzzy
+msgid "Russian Federation"
+msgstr "Россия"
+
+#: user/lib/settings/display-analysis.php:592
+#, fuzzy
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: user/lib/settings/display-analysis.php:593
+#, fuzzy
+msgid "Saudi Arabia"
+msgstr "Саудовская Аравия"
+
+#: user/lib/settings/display-analysis.php:594
+#, fuzzy
+msgid "Sudan"
+msgstr "Судан"
+
+#: user/lib/settings/display-analysis.php:595
+#, fuzzy
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: user/lib/settings/display-analysis.php:596
+#, fuzzy
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: user/lib/settings/display-analysis.php:599
+#, fuzzy
+msgid "Svalbard and Jan Mayen"
+msgstr "Шпицберген и Ян-Майен"
+
+#: user/lib/settings/display-analysis.php:600
+#, fuzzy
+msgid "Solomon Islands"
+msgstr "Соломоновы острова"
+
+#: user/lib/settings/display-analysis.php:601
+#, fuzzy
+msgid "Sierra Leone"
+msgstr "Сьерра-Леоне"
+
+#: user/lib/settings/display-analysis.php:602
+#, fuzzy
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: user/lib/settings/display-analysis.php:603
+#, fuzzy
+msgid "San Marino"
+msgstr "Сан - Марино"
+
+#: user/lib/settings/display-analysis.php:604
+#, fuzzy
+msgid "Somalia"
+msgstr "Сомали"
+
+#: user/lib/settings/display-analysis.php:605
+#, fuzzy
+msgid "Saint Pierre and Miquelon"
+msgstr "Сен-Пьер и Микелон"
+
+#: user/lib/settings/display-analysis.php:606
+#, fuzzy
+msgid "Serbia"
+msgstr "Сербия"
+
+#: user/lib/settings/display-analysis.php:607
+#, fuzzy
+msgid "South Sudan"
+msgstr "Южный Судан"
+
+#: user/lib/settings/display-analysis.php:608
+#, fuzzy
+msgid "Sao Tome and Principe"
+msgstr "Сан-Томе и Принсипи"
+
+#: user/lib/settings/display-analysis.php:609
+#, fuzzy
+msgid "Suriname"
+msgstr "Суринам"
+
+#: user/lib/settings/display-analysis.php:610
+#, fuzzy
+msgid "Slovakia"
+msgstr "Словакия"
+
+#: user/lib/settings/display-analysis.php:611
+#, fuzzy
+msgid "Slovenia"
+msgstr "Словения"
+
+#: user/lib/settings/display-analysis.php:612
+#, fuzzy
+msgid "Sweden"
+msgstr "Швеция"
+
+#: user/lib/settings/display-analysis.php:613
+#, fuzzy
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#: user/lib/settings/display-analysis.php:614
+#, fuzzy
+msgid "Sint Maarten (Dutch part)"
+msgstr "Сен-Мартен (Голландская часть)"
+
+#: user/lib/settings/display-analysis.php:615
+#, fuzzy
+msgid "Seychelles"
+msgstr "Сейшельские острова"
+
+#: user/lib/settings/display-analysis.php:616
+#, fuzzy
+msgid "Syrian Arab Republic"
+msgstr "Сирийская Арабская Республика"
+
+#: user/lib/settings/display-analysis.php:617
+#, fuzzy
+msgid "Turks and Caicos Islands"
+msgstr "Острова Теркс и Кайкос"
+
+#: user/lib/settings/display-analysis.php:618
+#, fuzzy
+msgid "Chad"
+msgstr "Чад"
+
+#: user/lib/settings/display-analysis.php:619
+#, fuzzy
+msgid "Togo"
+msgstr "Того"
+
+#: user/lib/settings/display-analysis.php:620
+#, fuzzy
+msgid "Thailand"
+msgstr "Тайланд"
+
+#: user/lib/settings/display-analysis.php:621
+#, fuzzy
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: user/lib/settings/display-analysis.php:622
+#, fuzzy
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: user/lib/settings/display-analysis.php:623
+#, fuzzy
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#: user/lib/settings/display-analysis.php:624
+msgid "Timor-Leste"
+msgstr "Timor-Lest *"
+
+#: user/lib/settings/display-analysis.php:625
+#, fuzzy
+msgid "Tonga"
+msgstr "Тонга"
+
+#: user/lib/settings/display-analysis.php:626
+#, fuzzy
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: user/lib/settings/display-analysis.php:627
+#, fuzzy
+msgid "Tunisia"
+msgstr "Тунисиа"
+
+#: user/lib/settings/display-analysis.php:628
+#, fuzzy
+msgid "Turkey"
+msgstr "Турецкий"
+
+#: user/lib/settings/display-analysis.php:629
+#, fuzzy
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: user/lib/settings/display-analysis.php:630
+#, fuzzy
+msgid "Taiwan, Province of China"
+msgstr "Тайвань, провинция Китая"
+
+#: user/lib/settings/display-analysis.php:631
+#, fuzzy
+msgid "Tanzania, United Republic of"
+msgstr "Танзания, Объединенная Республика"
+
+#: user/lib/settings/display-analysis.php:632
+#, fuzzy
+msgid "Uganda"
+msgstr "Уганда"
+
+#: user/lib/settings/display-analysis.php:633
+#, fuzzy
+msgid "Ukraine"
+msgstr "Хохляндия"
+
+#: user/lib/settings/display-analysis.php:635
+#, fuzzy
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: user/lib/settings/display-analysis.php:636
+#, fuzzy
+msgid "United States of America"
+msgstr "США"
+
+#: user/lib/settings/display-analysis.php:637
+#, fuzzy
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: user/lib/settings/display-analysis.php:638
+#, fuzzy
+msgid "Holy See (Vatican City State)"
+msgstr "Ватикан"
+
+#: user/lib/settings/display-analysis.php:639
+#, fuzzy
+msgid "Saint Vincent and the Grenadines"
+msgstr "Святой Винсент и Гренадины"
+
+#: user/lib/settings/display-analysis.php:640
+#, fuzzy
+msgid "Venezuela, Bolivarian Republic of"
+msgstr "Венесуэла"
+
+#: user/lib/settings/display-analysis.php:641
+#, fuzzy
+msgid "Virgin Islands, British"
+msgstr "Виргинские Острова, Великобритания"
+
+#: user/lib/settings/display-analysis.php:642
+#, fuzzy
+msgid "Virgin Islands, U.S."
+msgstr "Виргинские Острова, США"
+
+#: user/lib/settings/display-analysis.php:643
+#, fuzzy
+msgid "Viet Nam"
+msgstr "Вьетнам"
+
+#: user/lib/settings/display-analysis.php:644
+#, fuzzy
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: user/lib/settings/display-analysis.php:645
+#, fuzzy
+msgid "Wallis and Futuna"
+msgstr "Уоллис и Футуна"
+
+#: user/lib/settings/display-analysis.php:646
+#, fuzzy
+msgid "Samoa"
+msgstr "Самоа"
+
+#: user/lib/settings/display-analysis.php:647
+#, fuzzy
+msgid "Yemen"
+msgstr "Йемен"
+
+#: user/lib/settings/display-analysis.php:648
+#, fuzzy
+msgid "South Africa"
+msgstr "Южная Африка"
+
+#: user/lib/settings/display-analysis.php:649
+#, fuzzy
+msgid "Zambia"
+msgstr "Замбия"
+
+#: user/lib/settings/display-analysis.php:650
+#, fuzzy
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: user/lib/settings/display-data.php:103
+#, fuzzy
+msgid "Main Keywords"
+msgstr "Основные ключевые слова"
+
+#: user/lib/settings/display-data.php:107
+#, fuzzy
+msgid "Outgoing Links"
+msgstr "Исходящие ссылки"
+
+#: user/lib/settings/display-debug-info.php:52
+#, fuzzy
+msgid ""
+"This information allows our support team to see the versions of WordPress, "
+"plugins and theme on your site. Provide this information if requested in our "
+"support forum. No passwords or other confidential information is included."
+msgstr ""
+"Эта информация позволяет нашей службе поддержки видеть версии WordPress, "
+"плагинов и темы на вашем сайте. Предоставьте эту информацию, если это "
+"потребуется на нашем форуме поддержки. Пароли и другая конфиденциальная "
+"информация не включаются."
+
+#: user/lib/settings/display-debug-info.php:107
+#, fuzzy
+msgid "n/a"
+msgstr "n/a"
+
+#: user/lib/settings/display-debug-mitapi.php:90
+#, fuzzy
+msgid "FetchData"
+msgstr "FetchData"
+
+#: user/lib/settings/display-explore.php:73
+msgid "SmartPhone"
+msgstr "Смартфон"
+
+#: user/lib/settings/display-google.php:192
+#, fuzzy
+msgid "Get Google Authorization Code"
+msgstr "Добавить код Google Analytics"
+
+#: user/lib/settings/display-google.php:197
+#: user/lib/settings/display-mitambo.php:231
+#, fuzzy
+msgid "Authenticate"
+msgstr "Авторизовать заново"
+
+#: user/lib/settings/display-google.php:212
+#: user/lib/settings/display-google.php:240
+#: user/lib/settings/display-mitambo.php:331
+#, fuzzy
+msgid "Profile"
+msgstr "Профиль"
+
+#: user/lib/settings/display-google.php:221
+#, fuzzy
+msgid "Save Profile"
+msgstr "Сохранить профиль"
+
+#: user/lib/settings/display-google.php:223
+#: user/lib/settings/display-google.php:248
+msgid "Re-Authenticate"
+msgstr "Авторизовать заново"
+
+#: user/lib/settings/display-google.php:285
+#: user/lib/settings/display-mitambo.php:301
+msgid "Frequent Questions (FAQ)"
+msgstr "Часто задаваемые вопросы"
+
+#: user/lib/settings/display-google.php:286
+#: user/lib/settings/display-mitambo.php:302
+msgid "Why I do not see any data?"
+msgstr "Почему я не вижу данных?"
+
+#: user/lib/settings/display-google.php:287
+msgid ""
+"To be able to receive google search console data within the plugin, you need "
+"to activate it for your blog on "
+msgstr ""
+"Чтобы получать данные Google Search Console в плагине, вам необходимо "
+"активировать его для своего блога"
+
+#: user/lib/settings/display-google.php:288
+msgid ""
+"Use the <strong>same email</strong> within Google Settings tab to retrieve "
+"those data."
+msgstr ""
+"Используйте <strong>тот же адрес электронной почты</strong> на вкладке "
+"Настройки Google, чтобы получить эти данные."
+
+#: user/lib/settings/display-google.php:289
+msgid ""
+"Hit 'Refresh Google data' within dashboard,post,pages,categories and tag to "
+"see data from google search console."
+msgstr ""
+"Нажмите “Обновить данные Google” на панели управления, в постах, страницах, "
+"категориях или тегах, чтобы увидеть свежие данные из Google Search Console."
+
+#: user/lib/settings/display-mitambo.php:176
+#: user/lib/settings/display-mitambo.php:178
+#, fuzzy
+msgid "Domain to activate not found"
+msgstr "Домен для активации не найден"
+
+#: user/lib/settings/display-mitambo.php:180
+#: user/lib/settings/display-mitambo.php:196
+#, fuzzy
+msgid "Error on Mitambo api"
+msgstr "Ошибка в Mitambo api"
+
+#: user/lib/settings/display-mitambo.php:195
+#, fuzzy
+msgid "No valid Token found from "
+msgstr "Не найдено действительных токенов"
+
+#: user/lib/settings/display-mitambo.php:216
+msgid "Crawl succesfully started. Wait for the email from the Mitambo service."
+msgstr "Сканирование успешно завершено. Подождите письмо от робота Mitambo."
+
+#: user/lib/settings/display-mitambo.php:227
+#, fuzzy
+msgid "Get Mitambo Authorization Code"
+msgstr "Получить код авторизации Mitambo"
+
+#: user/lib/settings/display-mitambo.php:246
+#, fuzzy
+msgid "Re-Authorisation Code"
+msgstr "Код повторной авторизации"
+
+#: user/lib/settings/display-mitambo.php:248
+msgid "Clean Mitambo Cache"
+msgstr "Отчистить кеш Mitambo"
+
+#: user/lib/settings/display-mitambo.php:261
+msgid "Made by "
+msgstr "Сделано"
+
+#: user/lib/settings/display-mitambo.php:261
+msgid " at"
+msgstr "в"
+
+#: user/lib/settings/display-mitambo.php:269
+#, fuzzy
+msgid "Mitambo Search Console"
+msgstr "SearchConsole"
+
+#: user/lib/settings/display-mitambo.php:270
+msgid ""
+"Mitambo crawler achieve a semantic analysis of your content. It complete "
+"proposed keywords given by Google Search Console"
+msgstr ""
+"Сканер Mitambo сохранил семантический анализ вашего контента. Это полный "
+"список предложенных ключевых слов из Google Search Console"
+
+#: user/lib/settings/display-mitambo.php:271
+msgid ""
+"Often when a page does not rank, you'll need assistance to help google "
+"understand your content."
+msgstr ""
+"Часто, когда страницы нет в поиске, вам необходимо помочь Google "
+"просканировать ваш контент."
+
+#: user/lib/settings/display-mitambo.php:281
+msgid "Congratulation"
+msgstr "Поздравляем"
+
+#: user/lib/settings/display-mitambo.php:282
+msgid ""
+"You have completed your subscription and you are correctly authenticated on "
+"Mitambo API."
+msgstr ""
+
+#: user/lib/settings/display-mitambo.php:284
+msgid ""
+"Your Website is being currently crawled. When the crawl is finished, "
+"<strong>you will received an email notification upon completion</strong>."
+msgstr ""
+"В настоящее время ваш сайт сканируется. По <strong>завершении сканирования "
+"вы получите уведомление по электронной почте о завершении</strong> ."
+
+#: user/lib/settings/display-mitambo.php:286
+msgid ""
+"Semantic data is available from mitambo api. Hit 'Refresh data' within "
+"dashboard,post,pages,categories and tag to see them."
+msgstr ""
+"Семантические данные доступны из Mitambo API. Нажмите “обновить данные” в "
+"панели управления, постах, страницах, категориях или тегах, чтобы посмотреть "
+"их"
+
+#: user/lib/settings/display-mitambo.php:290
+#, fuzzy
+#| msgid "Mitambo token is not set yet."
+msgid "Mitambo authentication not done yet"
+msgstr "Токен Mitambo пока не установлен"
+
+#: user/lib/settings/display-mitambo.php:291
+msgid ""
+"You need to complete your subscription on mitambo and to authenticate to be "
+"able to retrieve semantic data."
+msgstr ""
+"You need to complete your subscription on mitambo and to authenticate to be "
+"able to retrieve semantic data."
+
+#: user/lib/settings/display-mitambo.php:303
+msgid ""
+"You can now find data on each <strong>Post/Page/Category/Tag</strong> that "
+"has been crawled."
+msgstr ""
+"Теперь вы можете находить данные о каждом просканированом <strong>Post/Page/"
+"Category/ Tag</strong> ."
+
+#: user/lib/settings/display-mitambo.php:306
+msgid "I have posted a new article and i have no data"
+msgstr "Я написал новую статью, но она не была проанализирована"
+
+#: user/lib/settings/display-mitambo.php:307
+msgid ""
+"Any post or page not published or not linked by any other page (orphane) or "
+"marked as no-index either by meta tag or rejected by the robots.txt will not "
+"have any data."
+msgstr ""
+"Любое сообщение или страница, не опубликованные или не связанные какой-либо "
+"другой страницей (orphane page) или отмеченные как непроиндексированые с "
+"помощью мета-тега или заблокированные с помощью файла robots.txt, не будут "
+"иметь никаких данных."
+
+#: user/lib/settings/display-mitambo.php:309
+msgid "What do i have with the Free Mitambo Subscription?"
+msgstr "Что есть в бесплатной подписке Mitambo?"
+
+#: user/lib/settings/display-mitambo.php:310
+msgid ""
+"Free subscription allow you to have <strong>your website crawled 2 times</"
+"strong>. The first crawl occurs upon subscription, the second by request."
+msgstr ""
+"Бесплатная подписка позволяет вам просканировать <strong>ваш сайт 2 раза</"
+"strong>. Первый обход выполняется после подписки, второй - по запросу."
+
+#: user/lib/settings/display-mitambo.php:311
+msgid "The status of the crawler indicate <strong>blocked</strong>"
+msgstr "Статус последнего сканирования - <strong>заблокировано</strong>"
+
+#: user/lib/settings/display-mitambo.php:312
+msgid ""
+"If you have installed a plugin firewall like \"WordFence\" or \"Sucuri\"  be "
+"sure to add these IP address (<strong>37.187.159.130</strong>) to allow the "
+"crawler"
+msgstr ""
+"Если вы установили брандмауэр с плагинами, такой как «WordFence» или "
+"«Sucuri», обязательно добавьте этот IP-адрес ( <strong>37.187.159.130</"
+"strong> ), чтобы <strong>позволить</strong> нашему сканеру"
+
+#: user/lib/settings/display-mitambo.php:313
+msgid ""
+"The status of the crawler indicate <strong>blocked after limit reached</"
+"strong>"
+msgstr ""
+"Статус последнего сканирования - <strong>заблокировано, превышен лимит</"
+"strong>"
+
+#: user/lib/settings/display-mitambo.php:314
+msgid ""
+"The crawler has reach the limit of pages and resources it fetches. Change "
+"the limit on the Crawler preferences."
+msgstr ""
+"Лимит страни для проекта израсходован, если не все страницы просканированы, "
+"увеличьте лимит в настройках проекта."
+
+#: user/lib/settings/display-mitambo.php:315
+msgid ""
+"The limit is the maximum number of pages + resources found while crawling "
+"the site."
+msgstr ""
+"Лимит на максимальное кол-во стран израсходован при сканировании проекта."
+
+#: user/lib/settings/display-mitambo.php:316
+msgid "When will i have my data?"
+msgstr "Когда я увижу данные анализа моего сайта?"
+
+#: user/lib/settings/display-mitambo.php:317
+msgid ""
+"You need to wait that the crawl is finished to get your data. The crawl can "
+"take 5 min to several hours to complete depending on the load of our servers "
+"and depending of your webserver infrastructure."
+msgstr ""
+"Чтобы получить отчеты, вам необходимо подождать, пока сканер Mitambo "
+"закончит свою работу. В зависимости от загрузки наших серверов и зависимости "
+"от инфраструктуры вашего веб-сервера обход может занять от 5 минут до "
+"нескольких часов."
+
+#: user/lib/settings/display-mitambo.php:333
+msgid ""
+"To take advantage of regular content updates,We invite you to take a "
+"subscription."
+msgstr ""
+"Чтобы получать свежие отчеты по вашему сайту, вам необходимо купить подписку."
+
+#: user/lib/settings/display-mitambo.php:334
+msgid "All informations and answers to your questions here."
+msgstr "Вся информация и ответы на ваши вопросы здесь."
+
+#: user/lib/settings/display-mitambo.php:336
+msgid "Autorization"
+msgstr "Авторизация"
+
+#: user/lib/settings/display-mitambo.php:350
+#: user/lib/settings/display-mitambo.php:352
+msgid "no more crawl planned"
+msgstr "сканирование не запланировано"
+
+#: user/lib/settings/display-mitambo.php:353
+msgid ""
+" <strong>∵pages$</strong> pages and <strong>∵resources$</strong> resources "
+"have been crawled on the last crawl."
+msgstr ""
+"При последнем сканировании было просканировано <strong>∵pages$</strong> "
+"страницы и <strong>∵resources$</strong> ресурсов."
+
+#: user/lib/settings/display-mitambo.php:357
+msgid "∵frequency$ crawl with limit ∵limit$"
+msgstr "∵frequency$ скандировании с лимитом ∵limit$"
+
+#: user/lib/settings/display-mitambo.php:363
+msgid "Crawl successfull"
+msgstr "Сканирование успешно завершено"
+
+#: user/lib/settings/display-mitambo.php:369
+msgid "Crawl blocked after limit reached"
+msgstr "Сканирование заблокировано, израсходован лимит"
+
+#: user/lib/settings/display-mitambo.php:371
+msgid "Crawl blocked"
+msgstr "Сканирование заблокировано"
+
+#: user/lib/settings/display-mitambo.php:379
+msgid ""
+"The <strong>robots.txt is being used</strong> by the crawler as requested."
+msgstr "<strong>Robots.txt используется</strong> сканером."
+
+#: user/lib/settings/display-mitambo.php:381
+msgid ""
+"The <strong>robots.txt has not been used</strong> by the crawler as "
+"requested."
+msgstr "<strong>Robots.txt не был использован</strong> сканером."
+
+#: user/lib/settings/display-mitambo.php:386
+msgid "The robots.txt has been found"
+msgstr "Файл robots.txt был найден"
+
+#: user/lib/settings/display-mitambo.php:389
+msgid "The robots.txt is valid."
+msgstr "Файл robots.txt имеет верный формат."
+
+#: user/lib/settings/display-mitambo.php:392
+msgid "The robots.txt is not valid: <strong>"
+msgstr "Недопустимый файл robots.txt: <strong>"
+
+#: user/lib/settings/display-mitambo.php:392
+msgid "</strong>"
+msgstr ""
+"The robots.txt has not been found (http status ∵status$) on <strong>∵home$/"
+"robots.txt</strong>."
+
+#: user/lib/settings/display-mitambo.php:395
+msgid ""
+"The robots.txt has not been found (http status ∵status$) on <strong>∵home$/"
+"robots.txt</strong>."
+msgstr ""
+"Файл roots.txt не был найден (HTTP статус ∵status$) по адресу <strong>∵home$/"
+"robots.txt</strong>."
+
+#: user/lib/settings/display-mitambo.php:403
+msgid "Crawler status"
+msgstr "Статус сканирования"
+
+#: user/lib/settings/display-mitambo.php:404
+#, fuzzy
+#| msgid "Last Crawled"
+msgid "Latest crawl"
+msgstr "Последнее сканирование"
+
+#: user/lib/settings/display-mitambo.php:406
+msgid "The next crawl is forecast for <strong>"
+msgstr "Следующий обход прогнозируется для"
+
+#: user/lib/settings/display-mitambo.php:409
+msgid "Robots.txt"
+msgstr ""
+"The robots.txt has not been found (http status ∵status$) on <strong>∵home$/"
+"robots.txt</strong>."
+
+#: user/lib/settings/display-mitambo.php:413
+msgid "Preferences"
+msgstr "Настройки"
+
+#: user/lib/settings/display-mitambo.php:414
+msgid "Link to follow to manage the crawl frequency and limit "
+msgstr "Здесь вы можете изменить частоту и лимиты сканирования"
+
+#: user/lib/settings/display-mitambo.php:465
+msgid "last_crawl_date"
+msgstr "Дата последнего сканирования"
+
+#: user/lib/settings/display-mitambo.php:466
+msgid "last_crawl_state"
+msgstr "Статус последнего сканирования"
+
+#: user/lib/settings/display-mitambo.php:467
+#, fuzzy
+msgid "last_crawl_reason"
+msgstr "last_crawl_reason"
+
+#: user/lib/settings/display-mitambo.php:468
+#, fuzzy
+msgid "last_crawl_current_project_limit"
+msgstr "last_crawl_current_project_limit"
+
+#: user/lib/settings/display-mitambo.php:469
+#, fuzzy
+msgid "last_crawl_pages"
+msgstr "last_crawl_pages"
+
+#: user/lib/settings/display-mitambo.php:470
+#, fuzzy
+msgid "next_crawl_date"
+msgstr "next_crawl_date"
+
+#: user/lib/settings/display-mitambo.php:471
+#, fuzzy
+msgid "last_crawl_resources"
+msgstr "last_crawl_resources"
+
+#: user/lib/settings/display-mitambo.php:472
+msgid "frequency"
+msgstr "частота"
+
+#: user/lib/settings/display-mitambo.php:473
+#, fuzzy
+msgid "Subscription"
+msgstr "Подписка"
+
+#: user/lib/settings/display-mitambo.php:474
+msgid "MonthlyLimit"
+msgstr "Месячный лимит"
+
+#: user/lib/settings/display-mitambo.php:475
+msgid "CurrentLimit"
+msgstr "Текущий лимит"
+
+#: user/lib/settings/display-mitambo.php:476
+msgid "ProjectsLimit"
+msgstr "Лимит проектов"
+
+#: user/lib/settings/display-mitambo.php:477
+msgid "CurrentProjects"
+msgstr "Кол-во проектов"
+
+#: user/lib/settings/display-mitambo.php:478
+msgid "CurrentActiveProjects"
+msgstr "Активных проектов сейчас"
+
+#: user/lib/settings/display-mitambo.php:479
+msgid "ActiveProjects"
+msgstr "Всего активных проектов"
+
+#: user/lib/settings/display-mitambo.php:480
+msgid "DBL_DAILY"
+msgstr "Два раза в день"
+
+#: user/lib/settings/display-mitambo.php:481
+msgid "DAILY"
+msgstr "Ежедневно"
+
+#: user/lib/settings/display-mitambo.php:482
+msgid "DBL_WEEKLY"
+msgstr "Два раза в неделю"
+
+#: user/lib/settings/display-mitambo.php:483
+msgid "WEEKLY"
+msgstr "Еженедельно"
+
+#: user/lib/settings/display-mitambo.php:484
+msgid "DBL_MONTH"
+msgstr "Два раза в месяц"
+
+#: user/lib/settings/display-mitambo.php:485
+msgid "MONTH"
+msgstr "Ежемесячно"
+
+#: user/lib/settings/display-mitambo.php:486
+msgid "DBL_DAILY_FULL"
+msgstr "Два раза в день"
+
+#: user/lib/settings/display-mitambo.php:487
+msgid "DAILY_FULL"
+msgstr "Ежедневно"
+
+#: user/lib/settings/display-mitambo.php:488
+msgid "DBL_WEEKLY_FULL"
+msgstr "Два раза в неделю"
+
+#: user/lib/settings/display-mitambo.php:489
+msgid "WEEKLY_FULL"
+msgstr "Еженедельно"
+
+#: user/lib/settings/display-mitambo.php:490
+msgid "DBL_MONTH_FULL"
+msgstr "Два раза в месяц"
+
+#: user/lib/settings/display-mitambo.php:491
+msgid "MONTH_FULL"
+msgstr "Ежемесячно"
+
+#: user/lib/settings/display-mitambo.php:492
+msgid "Crawler information"
+msgstr "Информация о сканировании"
+
+#: user/lib/settings/display-mitambo.php:493
+#, fuzzy
+msgid "Subscription information"
+msgstr "Информация о подписке"
+
+#: user/lib/settings/display-role.php:101
+#, fuzzy
+msgid "Give Access"
+msgstr "Дать доступ"
+
+#: user/lib/settings/display-svg-reports.php:39
+msgid "SVG Bargraphs"
+msgstr "SVG гистограммы"
+
+#: user/lib/settings/display-svg-reports.php:45
+#, fuzzy
+msgid "SVG HBargraphs"
+msgstr "SVG HBargraphs"
+
+#: user/lib/settings/display-svg-reports.php:161
+#, fuzzy
+msgid "SVG Depth Fetchtime"
+msgstr "SVG Depth Fetchtime"
+
+#: user/lib/settings/display-svg-reports.php:162
+#, fuzzy
+msgid "SVG Depth Weight"
+msgstr "Вес глубины SVG"
+
+#: user/lib/settings/display-svg-reports.php:163
+#, fuzzy
+msgid "SVG Depth Status"
+msgstr "Статус глубины SVG"
+
+#: user/lib/settings/display-svg-reports.php:164
+#, fuzzy
+msgid "SVG Depth Linkratio GT1"
+msgstr "SVG Глубина Linkratio GT1"
+
+#: user/lib/settings/display-svg-reports.php:165
+#, fuzzy
+msgid "SVG Depth Linkratio"
+msgstr "SVG Depth Linkratio"
+
+#: user/lib/settings/display-svg-reports.php:166
+#, fuzzy
+msgid "SVG Depth Perception GT1"
+msgstr "Восприятие глубины SVG GT1"
+
+#: user/lib/settings/display-svg-reports.php:167
+msgid "SVG Depth Perception"
+msgstr "SVG Глубина/Восприятие"
+
+#: user/lib/settings/display-todo.php:88
+msgid "All Dates"
+msgstr "За все время"
+
+#: user/lib/settings/display-todo.php:89
+#, fuzzy
+msgid "Next Day"
+msgstr "Следущий день"
+
+#: user/lib/settings/display-todo.php:90
+#, fuzzy
+msgid "Next Week"
+msgstr "Следующая неделя"
+
+#: user/lib/settings/display-todo.php:91
+#, fuzzy
+msgid "Next 15 Days"
+msgstr "Следующие 15 дней"
+
+#: user/lib/settings/display-todo.php:92
+#, fuzzy
+msgid "Next 30 Days"
+msgstr "Следующие 30 дней"
+
+#: user/lib/settings/display-todo.php:94
+#, fuzzy
+msgid "Apply Filter"
+msgstr "Применить фильтр"
+
+#: user/lib/settings/display-todo.php:100
+msgid "Reset Filter"
+msgstr "Сбросить фильтр"
+
+#: user/notice.php:30
+msgid "Successfully added to do action."
+msgstr "Задача успешно добавлена."
+
+#: user/notice.php:37
+msgid "All fields must be filled up to add WpSearchconsole To Do action."
+msgstr "Все поля должны быть заполнены, чтобы добавить задачу WpSearchconsole."
+
+#: user/notice.php:44
+msgid "Can not add WpSearchconsole To Do action."
+msgstr "Не удается добавить новую задачу для WpSearchconsole."
+
+#: user/notice.php:51
+msgid "You received data update from the DD/MM/YYYY"
+msgstr "Вы получили обновление данных от DD.MM.YYYY"
+
+#: user/notice.php:58
+msgid "Connection not possible, try latter."
+msgstr "Соединение невозможно, попробуйте позже."
+
+#: user/notice.php:65
+#, fuzzy
+msgid "Call to the API failed, as there is no website authenticated yet."
+msgstr ""
+"Вызов API-интерфейса завершился с ошибкой, поскольку веб-сайт еще не "
+"аутентифицирован."
+
+#: user/notice.php:72
+msgid "Successfully authenticated for"
+msgstr "Успешно авторизовано для"
+
+#: user/notice.php:79
+msgid ""
+"No verified website was found under your Google account. Please use other "
+"account."
+msgstr ""
+"В вашем Google аккаунте не найдены проверенные веб-сайты. Используйте другую "
+"учетную запись."
+
+#: user/notice.php:86
+msgid "Project not crawled yet!"
+msgstr "Проект еще не отсканирован!"
+
+#: user/notice.php:93
+msgid "Mitambo services are disabled for free user."
+msgstr "Услуги Mitambo отключены для бесплатного тарифа."
+
+#: user/notice.php:100
+#, fuzzy
+msgid "CSV headings and data fields must be entered as an array."
+msgstr "Заголовки CSV и поля данных должны быть введены как массив."
+
+#: user/notice.php:107
+#, fuzzy
+msgid ""
+"Sorry. Could not install WP Search Console plugin, because necessary "
+"databases could not be created. Please contact the plugin author."
+msgstr ""
+"Сожалею. Не удалось установить плагин WP Search Console, так как не удалось "
+"создать необходимые базы данных. Пожалуйста, свяжитесь с автором плагина."
+
+#: user/notice.php:114
+msgid "Greetings. Successfully updated the settings"
+msgstr "Отлично! Настройки успешно обновлены"
+
+#: user/notice.php:120
+msgid "Please follow this link to complete Mitambo authentication "
+msgstr ""
+"Перейдите по этой ссылке, чтобы завершить проверку подлинности в Mitambo"
+
+#: user/notice.php:126
+msgid "Please follow this link to complete Google authentication "
+msgstr "Перейдите по этой ссылке, чтобы завершить проверку подлинности Google"
+
+#: user/notice.php:133
+msgid "Sorry. Could not update settings."
+msgstr "Не удалось обновить настройки."
+
+#: user/notice.php:139
+msgid "Mitambo crawler activated successfully."
+msgstr "Сканер Mitambo был успешно запущен"
+
+#~ msgid "To discover all informations about your crawl follow the next link:"
+#~ msgstr ""
+#~ "Чтобы просмотреть всю информацию о сканировании, перейдите по следующей "
+#~ "ссылке:"
+
+#~ msgid "Your subscription status and Crawler preferences"
+#~ msgstr "Статус вашей  подписки и настройки сканера"
+
+#, fuzzy
+#~ msgid "Check your "
+#~ msgstr "Проверьте свои"
+
+#, fuzzy
+#~ msgid "The Authorization has been made by "
+#~ msgstr "Авторизация была произведена"
+
+#~ msgid ""
+#~ "Your are running the crawler under the following subscription plan "
+#~ "<strong>"
+#~ msgstr ""
+#~ "Вы запускаете сканер в соответствии со следующим планом подписки<strong>"
+
+#~ msgid ""
+#~ "The mitambo crawler crawls your site \"<strong>∵frequency$s</strong>\" "
+#~ "with a limit of ∵limit$s pages and resources."
+#~ msgstr ""
+#~ "Сканер Mitambo сканирует ваш сайт «<strong>∵frequency$s</strong>» с "
+#~ "лимитом страниц и ресурсов ∵limit$s."
+
+#, fuzzy
+#~ msgid ""
+#~ "You can change those parameters on the site for each website on <a href="
+#~ "\"https://app.mitambo.com\" target='_blank'>https://app.mitambo.com</a>."
+#~ msgstr ""
+#~ "Вы можете изменить эти параметры на сайте для каждого веб-сайта на <a "
+#~ "href=\"https://app.mitambo.com\" target='_blank'>https://app.mitambo.com</"
+#~ "a> ."
+
+#, fuzzy
+#~ msgid ""
+#~ "To log in on <strong>Mitambo App</strong> use the same email used to "
+#~ "authenticate here on the <strong>Mitambo Tab</strong>."
+#~ msgstr ""
+#~ "Для входа в <strong>приложение Mitambo используйте</strong> тот же адрес "
+#~ "электронной почты, который используется для аутентификации здесь на "
+#~ "вкладке <strong>Mitambo</strong> ."
+
+#, fuzzy
+#~ msgid ""
+#~ "The crawl made at </strong>∵last_crawl_data$s</strong> has been "
+#~ "<strong>successfull</strong>."
+#~ msgstr ""
+#~ "Обход, выполненный в ∵last_crawl_data $ s, был <strong>успешно выполнен</"
+#~ "strong> ."
+
+#, fuzzy
+#~ msgid ""
+#~ "The crawl made at <strong>∵last_crawl_data$s</strong> has not been "
+#~ "<strong>partially successfull</strong>."
+#~ msgstr ""
+#~ "Обход, <strong>выполненный</strong> в <strong>∵last_crawl_data $ s</"
+#~ "strong> , не был <strong>частично успешным</strong> ."
+
+#, fuzzy
+#~ msgid ""
+#~ "<strong>No pages crawled at all</strong> -  Check your firewall and your "
+#~ "robots.txt."
+#~ msgstr ""
+#~ "<strong>Никакие страницы не</strong> сканируются вообще. Проверьте ваш "
+#~ "файервол и ваш robots.txt."
+
+#~ msgid "Please check your firewall"
+#~ msgstr "Пожалуйста, проверьте свой брандмауэр"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you have installed a plugin firewall like \"WordFence\" or \"Sucuri\"  "
+#~ "be sure to add these IP address (37.187.159.130) to allow the crawler"
+#~ msgstr ""
+#~ "Если вы установили брандмауэр с плагинами, такой как «WordFence» или "
+#~ "«Sucuri», обязательно добавьте этот IP-адрес (37.187.159.130), чтобы "
+#~ "позволить искателю"
+
+#~ msgid "The crawl has been blocked for the following reason <strong>"
+#~ msgstr "Сканирование было заблокировано по следующей причине <strong>"
+
+#, fuzzy
+#~ msgid ""
+#~ "The crawl made at <strong>∵last_crawl_data$s</strong> has <strong>not "
+#~ "been successfull</strong>"
+#~ msgstr ""
+#~ "<strong>Сканирование, выполненное</strong> в <strong>∵last_crawl_data $ "
+#~ "s</strong> , <strong>не было успешным.</strong>"
+
+#, fuzzy
+#~ msgid "for the following reason: <strong>"
+#~ msgstr "по следующей причине"
+
+#, fuzzy
+#~ msgid "You have no remaining pages or resources for your next crawl."
+#~ msgstr ""
+#~ "У вас нет оставшихся страниц или ресурсов для следующего сканирования."
+
+#, fuzzy
+#~ msgid "If you want to have a new crawl upgrade your account"
+#~ msgstr "Если вы хотите обновить свою страницу обхода контента"
+
+#, fuzzy
+#~ msgid ""
+#~ "You currenly use <strong>∵website$s</strong> website(s) from "
+#~ "<strong>∵totalwebsite$s</strong>, so  <strong>∵percent$s percent</strong> "
+#~ "remains available."
+#~ msgstr ""
+#~ "Вы в настоящее время <strong>используете</strong> веб-сайты "
+#~ "<strong>∵website $ с</strong> сайта <strong>∵totalwebsite $ s</strong> , "
+#~ "поэтому <strong>процент процентов $ s</strong> остается доступным."
+
+#, fuzzy
+#~ msgid ""
+#~ "You cannot add any more websites. If you need to add more website upgrade "
+#~ "your subscription plan."
+#~ msgstr ""
+#~ "Вы больше не можете добавлять веб-сайты. Если вам нужно добавить еще "
+#~ "сайт, обновите свой тарифный план."
+
+#~ msgid ""
+#~ " <strong>∵resource$s</strong> pages and resources have been crawled so "
+#~ "far, so <strong>∵percent$s percent</strong> remains available for your "
+#~ "next crawls."
+#~ msgstr ""
+#~ "было просканировано <strong>∵resource$s</strong>  страниц и ресурсов, "
+#~ "поэтому <strong>∵процент $ s</strong> остается для следующих сканирований."
+
+#, fuzzy
+#~ msgid "First crawl and Mitambo Free subscription"
+#~ msgstr "Первое сканирование и бесплатная подписка Mitambo"
+
+#, fuzzy
+#~ msgid ""
+#~ "You don't need to authenticate to <strong>Mitambo</strong> if you plan to "
+#~ "get you google search console only."
+#~ msgstr ""
+#~ "Вам не нужно проходить аутентификацию в <strong>Mitambo,</strong> если вы "
+#~ "<strong>планируете</strong> получить только консоль поиска Google."
+
+#, fuzzy
+#~ msgid ""
+#~ "You have now successfully completed the authentication on <strong>Mitambo "
+#~ "API</strong>. Fine :-)"
+#~ msgstr ""
+#~ "Вы успешно завершили аутентификацию в <strong>Mitambo API</strong> . "
+#~ "Отлично :-)"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you want more crawl <strong>upgrade your subscription plan<strong>"
+#~ msgstr ""
+#~ "Если вы хотите, чтобы <strong>ваш план подписки был расширен, обновите</"
+#~ "strong> обход контента"
+
+#, fuzzy
+#~ msgid ""
+#~ "If you have bought a subscription plan, use the <strong>same email</"
+#~ "strong> registered for the transaction even if it differ from the one "
+#~ "used for google search console."
+#~ msgstr ""
+#~ "Если вы купили план подписки, используйте тот <strong>же адрес</strong> "
+#~ "электронной <strong>почты,</strong> зарегистрированный для транзакции, "
+#~ "даже если он отличается от того, который используется для консоли поиска "
+#~ "Google."
+
+#, fuzzy
+#~ msgid ""
+#~ "When your authentication on Mitambo API is completed, the crawl of your "
+#~ "website will be planned."
+#~ msgstr ""
+#~ "Когда ваша аутентификация на Mitambo API будет завершена, сканирование "
+#~ "вашего сайта будет запланировано."
+
+#, fuzzy
+#~ msgid ""
+#~ "The crawl can take several hours to complete depending on the load of our "
+#~ "server and depending of your webserver infrastructure."
+#~ msgstr ""
+#~ "Сканирование может занять несколько часов в зависимости от загрузки "
+#~ "нашего сервера и в зависимости от инфраструктуры вашего веб-сервера."
+
+#~ msgid " pages&resources"
+#~ msgstr "страницы и ресурсы"
+
+#~ msgid " pages"
+#~ msgstr "страницы"
+
+#~ msgid " resources"
+#~ msgstr "ресурсы"
+
+#~ msgid "Check Mitambo configuration"
+#~ msgstr "Проверьте конфигурацию Mitambo"
+
+#~ msgid "Error unknow"
+#~ msgstr "Неизвестная ошибка"
+
+#~ msgid "Page with URL"
+#~ msgstr "Страница с URL-адресом"
+
+#~ msgid "doesn't crawled!"
+#~ msgstr "не просканирован!"
+
+#~ msgid "Project with token "
+#~ msgstr "Проект с токеном"
+
+#~ msgid "doesn't exists!"
+#~ msgstr "не существует!"
+
+#~ msgid "display"
+#~ msgstr "display"
+
+#~ msgid " projects"
+#~ msgstr "проекты"
+
+#~ msgid "Tous"
+#~ msgstr "Все"
+
+#~ msgid "here"
+#~ msgstr "здесь"
+
+#~ msgid "Refresh ok"
+#~ msgstr "Обновлено"
+
+#~ msgid "Top 10 To Do List"
+#~ msgstr "Top 10 TODO"
+
+#~ msgid "Explanation text"
+#~ msgstr "Объяснение текста"
+
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgid "John Doe"
+#~ msgstr "John Doe"
+
+#~ msgid "Task Test"
+#~ msgstr "Протестировать"
+
+#~ msgid "Top 10 List of Elements"
+#~ msgstr "Top 10 элементов"
+
+#~ msgid "Request Action"
+#~ msgstr "Запрос действия"
+
+#~ msgid "Topic (Weighted Density)"
+#~ msgstr "Тема (взвешенная плотность)"
+
+#~ msgid "Internal Reputation (% of Incoming Links)"
+#~ msgstr "Внутренняя репутация (% от входящих ссылок)"

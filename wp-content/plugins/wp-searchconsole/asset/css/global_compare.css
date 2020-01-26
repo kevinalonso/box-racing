@@ -1,0 +1,44 @@
+a
+   {
+   color           :inherit;
+   text-decoration :none;
+   }
+b
+   {
+   font-weight     :600;
+   }
+img
+   {
+   display         :block;
+   }
+table
+   {
+   font-size       :inherit;
+   text-align      :inherit;
+   empty-cells     :show;
+   }
+.Highlight
+   {
+   background-color:#ffff99;
+   }
+.DefaultText
+   {
+   font-family     :'Raleway',arial,sans-serif;
+   font-weight     :300;
+   font-size       :13px;
+   color           :#ffffff;
+   }
+h1
+   {
+   font-family     :'Raleway',arial,sans-serif;
+   font-weight     :300;
+   font-size       :25px;
+  /* color           :#ffffff; */
+   }
+h2
+   {
+   font-family     :'Raleway',arial,sans-serif;
+   font-weight     :300;
+   font-size       :20px;
+  /* color           :#ffffff; */
+   }

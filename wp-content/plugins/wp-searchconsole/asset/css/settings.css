@@ -1,0 +1,153 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:500,600,700);
+
+.wpsearchconsole-green {
+	color: #8bba30;
+}
+.wpsearchconsole-red {
+	color: #ff644d;
+}
+.wpsearchconsole-yellow {
+	color: #ffcc33;
+}
+.wpsearchconsole-blue {
+	color: #6495ed;
+}
+
+.wpsc-blue{
+	color:#5B89C5;
+}
+.wpsc-green{
+	color:#79D601;
+}
+.wpsc-orange{
+	color:#F8A700;
+}
+table.striped .odd-row{
+	background-color: #f9f9f9;
+}
+table.striped .even-row{
+	background-color: #ffffff;
+}
+
+.wpsearchconsole-editor {
+	border-color: #3D71A1; border-style: solid; border-width: 0px 1px 1px 1px; max-width: 100%;  box-sizing: border-box; padding: 15px;
+}
+
+.wpsearchconsole_metabox,.wpsearchconsole,.wpsc {
+	font-family: 'Raleway', Helvetica, Arial, serif;
+	font-weight: 500;
+}
+
+.wpsc h3 {
+	font-size: 1.1em;
+}
+
+.leftcol {
+	float: left;
+	width:502px;
+	padding: 3px;
+}
+
+.rightcol {
+	float: left;
+	width:502px;
+	padding: 3px;
+}
+.wpsc_standard{
+	border: 1px #3D71A1 solid;
+	padding: 20px;
+	margin: 10px;
+	font-size:11px;
+}
+.wpsc_info{
+	border: 1px #3D71A1 solid;
+	padding: 20px;
+	margin: 10px;
+	border-style: solid;
+	border-left-color: #79D601;
+	border-left-width: 15px;
+	font-size:11px;
+}
+.wpsc_warning{
+	border: 1px #3D71A1 solid;
+	padding: 20px;
+	margin: 10px;
+	border-style: solid;
+	border-left-color: #ff0000;
+	border-left-width: 15px;
+	font-size:11px;
+}
+.wpsc_purpose{
+	padding: 20px;
+	margin: 10px;
+}
+
+.wpsc_purpose p {
+	font-size:13px;
+}
+
+.wpsc_warning p, .wpsc_info p, .wpsc_standard p {
+	font-size:11px;
+}
+
+
+fieldset.wpsc_highlight  {
+	border: 1px #3D71A1 solid;
+	padding: 20px;
+	margin: 10px;
+}
+
+.wpsc_standard .page-title-action{
+	top: 7px;
+
+ }
+/*
+.wpsearchconsole_metabox h1,.wpsearchconsole h1,.wpsc h1 {
+	font-family: Raleway;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+}
+.wpsearchconsole_metabox h2,.wpsearchconsole h2,.wpsc h2 {
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+.wpsearchconsole_metabox h3,.wpsearchconsole h3,.wpsc h3 {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: §00;
+	line-height: 15.4px;
+}
+.wpsc p {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20px;
+}
+.wpsc blockquote {
+	font-family: Raleway;
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+.wpsc pre {
+	font-family: Raleway;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 18.5714px;
+}
+*/

@@ -1,0 +1,27 @@
+.wpsearchconsole-parent-col{
+	float:left; width: 100%; padding: 18px 0px;
+}
+.wpsearchconsole-child-left-col{
+	float:left; width: 50%;
+}
+.wpsearchconsole-child-right-col{
+	float:right; width: 50%;
+}
+.wpsearchconsole-child-left-col .postbox{
+	margin-right:10px;
+}
+.wpsearchconsole-child-right-col .postbox{
+	margin-left:10px;
+}		
+.page-subtitle h2{
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.wpsearchconsole-child-left-col{
+		float:left; width: 100%;
+	}
+	.wpsearchconsole-child-right-col{
+		float:left; width: 100%;
+	}
+}
