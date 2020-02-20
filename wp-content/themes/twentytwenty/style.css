@@ -58,6 +58,14 @@ with others.
 	margin-left: 34%;
 }
 
+.text-click-box-racing{
+	text-decoration: none;
+}
+
+.box-racing-occasion-permis{
+	color: white;
+}
+
 #box-racing-popup-close{
 	margin-left: 79%;
 }
@@ -72,7 +80,7 @@ with others.
 .box-racing-moto-occasion-img4{
 	width: 29%;
 	display: inline-block;
-	margin-top: 37%;
+	margin-top: 33%;
     margin-left: 3%;
 }
 

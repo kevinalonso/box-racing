@@ -14,18 +14,21 @@
 <html class="no-js" <?php language_attributes(); ?>>
 
 	<head>
-
+		<?php wp_enqueue_script('jquery'); ?>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 		<script src="http://localhost/dev/wp-content/themes/twentytwenty/templates/annonce.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
+  		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
+
 
 		<?php wp_head(); ?>
 
 	</head>
 
-	<body <?php body_class(); ?>>
+	<body id="body-box-racing" <?php body_class(); ?>>
 
 		<?php
 		wp_body_open();
