@@ -77,6 +77,11 @@
 							<img class="box-racing-marque-suzuki" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-suzuki.png">
 							<img class="box-racing-marque-honda" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-honda.png">
 							<img class="box-racing-marque-yamaha" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-yamaha.png">
+
+							<div class="box-racing-adresse-head">
+								<!--<span class="box-racing-adresse-head-txt">4 rue Héléne Boucher – Z.I Mescoden29260 PLOUDANIEL</span>-->
+								<span class="box-racing-adresse-head-num">02.98.80.21.46</span>
+							</div>
 						</div>
 
 					</div><!-- .header-titles -->
