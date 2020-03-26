@@ -53,6 +53,87 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 
+
+/*--------------------CSS Atelier--------------------------------------------*/
+ .service-rap{
+	margin-left: 2%;
+ }
+
+ .entretien{
+	margin-left: 2%;
+ }
+
+ .recherche-panne{
+	margin-left: 2%;
+ }
+
+.box-racing-atelier-entretien-item{
+	border-left: 3px solid red;
+    height: 102px;
+}
+
+.box-racing-serv-panne{ 
+	border-left: 3px solid red;
+    height: 102px;
+}
+
+.box-racing-serv-rap{
+   border-left: 3px solid red;
+   height: 217px;
+}
+
+.box-raing-atelier-titre{
+	max-width: 100% !important;
+    color: white !important;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    margin-top: -8%!important;
+}
+
+.box-racing-atelier-item{
+	list-style: none;
+}
+
+.box-racing-atelier-service-rap{
+	max-width: 22%!important;
+	margin-left: 9%!important;
+	display: inline-block;
+	font-size: 160%;
+	/*font-weight: bold;*/
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	background-color: #ffffffcf;
+    box-shadow: 1px 1px 12px #000;
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.box-racing-atelier-entretien{
+	max-width: 20%!important;
+	margin-left: 11%!important;
+	display: inline-block;
+	font-size: 160%;
+	/*font-weight: bold;*/
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	background-color: #ffffffcf;
+    box-shadow: 1px 1px 12px #000;
+	position: absolute;
+	color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.box-racing-atelier-service-panne{
+	max-width: 24%!important;
+    margin-left: 38%!important;
+    display: inline-block;
+    font-size: 160%;
+    /*font-weight: bold;*/
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    background-color: #ffffffcf;
+    box-shadow: 1px 1px 12px #000;
+    position: absolute;
+    color: white !important;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 /*------------------CSS CONTACT ---------------------------------------------*/
 
 .box-racing-contact-sub {

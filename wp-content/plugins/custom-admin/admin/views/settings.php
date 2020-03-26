@@ -51,6 +51,10 @@
                     <br/>
                     <textarea name="description" value=""></textarea>
                     <br/>
+                    <label>Prix</label>
+                    <br/>
+                    <input type="text" name="prix" value=""/>
+                    <br/>
 
                     <input type='file' name="img_princ" onchange="readURLPrincipale(this);"/>
                     <input type="image" id="blah" src="#" alt="Image Princpale"/>

@@ -23,7 +23,8 @@ if (!empty($_POST)){
 		'permis' => $_POST['permis'],
 		'annee' => $_POST['annee'],
 		'cylindre' => $_POST['cylindre'],
-		'description' => $_POST['description']
+		'description' => $_POST['description'],
+		'prix' => $_POST['prix']
 	);
 	
 	
