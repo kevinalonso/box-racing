@@ -53,6 +53,11 @@ with others.
 /*	0. CSS Reset
 /* -------------------------------------------------------------------------- */
 
+.box-racing-back-post{
+	background: url(/dev/wp-content/uploads/2020/03/box-racing-home.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 
 /*--------------------CSS Atelier--------------------------------------------*/
  .service-rap{
@@ -208,7 +213,7 @@ with others.
 .box-racing-home{
 	/*background-color: rgba(16,21,22,0.8);*/
     position: relative;
-    /*height: 300px;*/
+    height: 300px;
     max-width: 100% !important;
     margin-top: -3% !important;
     /*margin-left: 7% !important;*/
@@ -222,6 +227,7 @@ with others.
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
     margin-left: 2%;
+    margin-top: -1%;
 }
 
 .box-racing-depot-div:hover{
@@ -242,6 +248,7 @@ with others.
 	margin-left: 37%;
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
+    margin-top: -1%;
 }
 
 .box-racing-depot-img{
@@ -290,6 +297,7 @@ with others.
 	display: inline-block;
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
+    margin-top: -1%;
 }
 
 .box-racing-concepte-img{
@@ -313,6 +321,14 @@ with others.
 }
 
 /*-------------------------Popup annonce------------------------------------ */
+
+.box-racing-sale-moto-title{
+	max-width: 100% !important;
+    color: white !important;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    margin-left: 1%!important;
+}
+
 #box-racing-popup-annonce{
 	margin-left: 34%;
 }
