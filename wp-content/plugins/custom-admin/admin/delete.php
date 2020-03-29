@@ -1,15 +1,22 @@
 <?php
 require_once( str_replace('//','/',dirname(__FILE__).'/') .'../../../../wp-config.php');
 
-if (!empty($_POST)){
-
-	//Permet de récupérer les données du formulaire pour les ajouter en base de données
+function deleteOne(){
+	$id = $_GET['deleteOne'];
+	//Get database connection
 	global $wpdb;
+
 	$table = $wpdb->prefix . 'occasion';
+	$tableImage = $wpdb->prefix . 'occasion_images';
 
-	var_dump($_POST['annonce_delete_2']);
-	
+	//Delete item by id
+	$wpdb->delete($table, array( 'id' => $id ));
+	$wpdb->delete($tableImage, array( 'id_annonce' => $id ));
 
-	//Permet de faire la redirection
-	//header('Location: http://localhost/dev/wp-admin/options-general.php?page=custom-admin-list');
+
+	header('Location: http://localhost/dev/wp-admin/options-general.php?page=custom-admin-list');
 }
+
+if (isset($_GET['deleteOne'])) {
+    deleteOne();
+  }

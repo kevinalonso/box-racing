@@ -322,11 +322,30 @@ with others.
 
 /*-------------------------Popup annonce------------------------------------ */
 
+.box-racing-annonce-filter{
+	width: 4%;
+    display: inline;
+    margin-left: 2.3%;
+}
+
+.box-racing-filter-area{
+	display: inline;
+}
+
+.box-racing-filter-btn{
+	/*margin-top: -5% !important;
+    margin-left: 489px !important;/*1% !important;*/
+    margin-top: 8% !important;
+    margin-left: -119px !important;
+    position: absolute;
+}
+
 .box-racing-sale-moto-title{
 	max-width: 100% !important;
     color: white !important;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     margin-left: 1%!important;
+    display: inline-block;
 }
 
 #box-racing-popup-annonce{
@@ -355,7 +374,7 @@ with others.
 .box-racing-moto-occasion-img4{
 	width: 29%;
 	display: inline-block;
-	margin-top: 33%;
+	margin-top: 2%;
     margin-left: 3%;
 }
 
@@ -366,8 +385,17 @@ with others.
 }
 
 .box-racing-occasion-head{
+	/*display: inline-block;
+	width: 45.5%;*/
 	display: inline-block;
-	width: 45.5%;
+    width: 82%;
+    margin-left: -5%;
+}
+
+.box-racing-occasion-head-button{
+	display: inline-block;
+    margin-left: 4.6%;
+    margin-bottom: 3%;
 }
 
 .box-racing-occasion-titre{

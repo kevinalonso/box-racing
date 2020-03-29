@@ -2,9 +2,9 @@
 	<div class="wrap">
  
 	    <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-
+	    
 	   
-	    <form action="../wp-content/plugins/custom-admin/admin/delete.php" method='post'>
+	    <!--<form action="../wp-content/plugins/custom-admin/admin/delete.php" method='get' enctype="multipart/form-data">-->
 		    <table border="1" border-color="black" style="width: 100%;">
 				<?php
 
@@ -43,11 +43,14 @@
 							echo "<td>".$a2."</td>";
 							echo "<td>".$item->description."</td>";
 							echo "<td>".$item->prix."</td>";
-				    		echo "<td><input type='hidden' name='annonce_delete_".$item->id."' value='".$item->id."'/><input type='submit' value='Supprimer'/><input type='button' value='Modifier'/></td>";
+				    		echo "<td><a href='../wp-content/plugins/custom-admin/admin/delete.php?deleteOne=".$item->id."'>Supprimer</a></td>";
 			    		echo "</tr>";
 			    	}
 			    ?>
 			</table>
-		</form>
+		<!--</form>-->
 	</div>
 </html>
+<!--<form action='../wp-content/plugins/custom-admin/admin/delete.php?id=1' method='get'><input type='hidden' name='annonce_delete_".$item->id."' value='".$item->id."'/><input type='submit' value='Supprimer'/><input type='button' value='Modifier'/></form>-->
+
+<!--../wp-content/plugins/custom-admin/admin/delete.php?id=".$item->id."-->
