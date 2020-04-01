@@ -43,7 +43,7 @@
 							echo "<td>".$a2."</td>";
 							echo "<td>".$item->description."</td>";
 							echo "<td>".$item->prix."</td>";
-				    		echo "<td><a href='../wp-content/plugins/custom-admin/admin/delete.php?deleteOne=".$item->id."'>Supprimer</a></td>";
+				    		echo "<td><a href='../wp-content/plugins/custom-admin/admin/delete.php?deleteOne=".$item->id."'>Supprimer</a></br><a href='../wp-content/plugins/custom-admin/admin/update.php?updateOne=".$item->id."'>Modifier</a></td>";
 			    		echo "</tr>";
 			    	}
 			    ?>

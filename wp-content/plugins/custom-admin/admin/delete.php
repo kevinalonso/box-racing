@@ -18,5 +18,5 @@ function deleteOne(){
 }
 
 if (isset($_GET['deleteOne'])) {
-    deleteOne();
-  }
+	deleteOne();
+}

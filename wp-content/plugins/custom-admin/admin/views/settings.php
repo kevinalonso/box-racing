@@ -18,7 +18,7 @@
                 <p>
                     <label>Titre de l'annonce</label>
                     <br/>
-                    <input type="text" name="titre" value="" />
+                    <input type="text" name="titre" value="<?=($_GET['titre'] == NULL ? "" : $_GET['titre']) ?>" />
                     <br/>
 
                     <label>Marque</label>
@@ -40,20 +40,20 @@
 
                 	<label>Année</label>
                 	<br/>
-                    <input type="text" name="annee" value=""/>
+                    <input type="text" name="annee" value="<?=($_GET['annee'] == NULL ? "" : $_GET['annee']) ?>"/>
                     <br/>
                     <label>Cylindrée</label>
                     <br/>
-                    <input type="text" name="cylindre" value=""/>
+                    <input type="text" name="cylindre" value="<?=($_GET['cylindre'] == NULL ? "" : $_GET['cylindre']) ?>"/>
                   
                     <br/>
                     <label>Description de l'annonce</label>
                     <br/>
-                    <textarea name="description" value=""></textarea>
+                    <textarea name="description" value="<?=($_GET['description'] == NULL ? "" : $_GET['description']) ?>"></textarea>
                     <br/>
                     <label>Prix</label>
                     <br/>
-                    <input type="text" name="prix" value=""/>
+                    <input type="text" name="prix" value="<?=($_GET['prix'] == NULL ? "" : $_GET['prix']) ?>"/>
                     <br/>
 
                     <input type='file' name="img_princ" onchange="readURLPrincipale(this);"/>
