@@ -24,7 +24,8 @@ if (!empty($_POST)){
 		'annee' => $_POST['annee'],
 		'cylindre' => $_POST['cylindre'],
 		'description' => $_POST['description'],
-		'prix' => $_POST['prix']
+		'prix' => $_POST['prix'],
+		'kilometre' => $_POST	['kilometre']
 	);
 	
 	

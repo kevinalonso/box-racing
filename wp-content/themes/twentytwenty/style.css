@@ -330,14 +330,16 @@ with others.
 
 .box-racing-filter-area{
 	display: inline;
+	/*margin-left: 16%;*/
 }
 
 .box-racing-filter-btn{
 	/*margin-top: -5% !important;
     margin-left: 489px !important;/*1% !important;*/
-    margin-top: 8% !important;
+    margin-top: 6% !important;
     margin-left: -119px !important;
     position: absolute;
+    height: 53px;
 }
 
 .box-racing-sale-moto-title{
