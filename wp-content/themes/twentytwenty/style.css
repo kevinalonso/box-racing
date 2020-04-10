@@ -47,7 +47,6 @@ with others.
 
 ----------------------------------------------------------------------------- */
 
-
 /* -------------------------------------------------------------------------- */
 
 /*	0. CSS Reset
@@ -321,6 +320,16 @@ with others.
 }
 
 /*-------------------------Popup annonce------------------------------------ */
+
+.box-racing-background-occasion-moto, .box-racing-background-occasion-moto-a2{
+	float: left;
+    display: inline;
+    margin-left: 10%;
+    width: 20% !important;
+    color: white;
+    background-color: rgba(16,21,22,0.8);
+    margin-top: 1%;
+}
 
 .box-racing-annonce-filter{
 	width: 4%;
@@ -991,7 +1000,7 @@ hr.styled-separator::after {
 
 a {
 	color: #cd2653;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 a:hover,

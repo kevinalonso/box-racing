@@ -43,7 +43,7 @@ get_header();
 
 				foreach ($annonces as $annonce) {
 					echo "
-						<div class='".($annonce->permis == "1" ? "box-racing-background-occasion-moto-a2 ".$annonce->marque : "box-racing-background-occasion-moto ".$annonce->marque)."' style='float: left;display: inline; margin-left: 10%;width:20% !important;color: white;background-color: rgba(16,21,22,0.8); margin-top: 1%;'>
+						<div class='".($annonce->permis == "1" ? "box-racing-background-occasion-moto-a2 ".$annonce->marque : "box-racing-background-occasion-moto ".$annonce->marque)."'>
 							
 							<div>
 								<img class='box-racing-moto-occasion-img' src='".$annonce->imagePrincipale."'/>

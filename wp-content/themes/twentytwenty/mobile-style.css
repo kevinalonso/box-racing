@@ -1,3 +1,150 @@
 /************Portrait*****************/
 
+@media (max-width: 400px) {
+	
+	.box-racing-marque-ktm, .box-racing-marque-triumph, .box-racing-marque-kawasaki, 
+	.box-racing-marque-suzuki, .box-racing-marque-honda, .box-racing-marque-yamaha{
+		display: none;
+	}
+
+	.box-racing-marque{
+		width: 90% !important;
+    	margin-left: 39% !important;
+	}
+
+	.box-racing-depot-div{
+		width: 100% !important;
+		display: block !important;
+		margin-left: 0% !important;
+		position: relative !important;
+	}
+
+	.box-racing-atelier-div{
+		width: 100% !important;
+		display: block !important;
+		margin-left: 0% !important;
+		position: relative !important;
+		margin-top: 3% !important;
+	}
+
+	.box-racing-concepte-div{
+		width: 100% !important;
+		display: block !important;
+		margin-left: 0% !important;
+		position: relative !important;
+		margin-top: 3% !important;
+	}
+
+	.box-racing-home {
+		height: 859px !important;
+	}
+
+	.box-racing-atelier-img {
+		margin-left: 18% !important;
+	}
+
+	.box-racing-concepte-img {
+		margin-left: 19% !important; 
+	}
+
+	.custom-title-widget-color {
+		font-size: 110% !important;
+    	margin-left: 4% !important;
+	}
+
+	.footer-information-custom {
+		margin-left: 5% !important;
+	}
+
+	.box-racing-map-home {
+		margin-left: 0% !important;
+		margin-top: 2% !important;
+		width: 291px !important;
+	}
+
+	.footer-widgets-wrapper{
+		height: 497px !important;
+	}
+
+	.box-racing-atelier-service-rap{
+		display: block !important;
+		max-width: 86% !important;
+		margin-left: 7% !important;
+		position: relative;
+	}
+	.box-racing-serv-rap{
+		height: 179px !important;
+	}
+
+	.box-racing-atelier-entretien{
+		display: block;
+		max-width: 86% !important;
+		margin-left: 7% !important;
+		position: relative;
+	}
+	.box-racing-atelier-entretien-item{
+		height: 92px;
+	}
+
+	.box-racing-atelier-service-panne{
+		display: block;
+		max-width: 86% !important;
+		margin-left: 7% !important;
+		position: relative;
+	}
+	.box-racing-serv-panne{
+		height: 87px;
+	}
+
+	.bottom-responsive-reparation{
+		height: 10px;
+	}
+
+	.box-raing-atelier-titre{
+		display: none;
+	}
+
+	.box-racing-header-atelier{
+		background-image: none !important;
+	}
+
+	.box-racing-contact-pers {
+    	position: relative;
+    	margin-left: 0%;
+    	width: 100%;
+    	display: block;
+	}
+
+	.box-racing-contact-txt {
+	    display: block;
+	    position: relative;
+	    margin-left: 0%;
+	    width: 101%;
+	}
+
+	.box-racing-contact-sub {
+	    margin-left: 64%;
+	    margin-top: 0%;
+	    position: relative;
+	    height: 66px;
+	}
+
+	.box-racing-background-occasion-moto, .box-racing-background-occasion-moto-a2{
+		width: 82% !important;
+		display: block;
+	}
+
+	#box-racing-marque-filter{
+		width: 33%;
+	}
+
+	.box-racing-filter-btn {
+	    margin-top: 3% !important;
+	    margin-left: 0px !important;
+	    position: relative;
+	    height: 53px;
+	    margin-bottom: 0%;
+	}
+}
+
 /************Landscape*****************/

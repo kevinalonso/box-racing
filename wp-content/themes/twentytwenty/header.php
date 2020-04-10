@@ -23,10 +23,12 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
   		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
 
-  		<link rel="stylesheet" href="../dev/wp-content/themes/twentytwenty/tab-style.css">
-  		<link rel="stylesheet" href="../dev/wp-content/themes/twentytwenty/mobile-style.css">
-
 		<?php wp_head(); ?>
+
+
+		<!--My responsive css-->
+		<link rel="stylesheet" href="http://localhost/dev/wp-content/themes/twentytwenty/tab-style.css">
+  		<link rel="stylesheet" href="http://localhost/dev/wp-content/themes/twentytwenty/mobile-style.css">
 
 	</head>
 
