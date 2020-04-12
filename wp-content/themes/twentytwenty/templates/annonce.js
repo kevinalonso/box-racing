@@ -1,6 +1,15 @@
 var container;
 var theThing;
 
+var tabImg;
+var index;
+var imgTabIndex;
+var displayImage;
+var alreadyExist = false;
+var identifiant;
+var nomClass;
+
+
 window.onload = function(e){
 	container = document.querySelector("#site-content");
 	theThing = document.querySelector("#box-racing-popup-annonce");
@@ -9,17 +18,48 @@ window.onload = function(e){
 	//positionAnnonceDetail(false);
 }
 
+/*(function($){
+	$(function(){
+		var $carrousel = $('#box-racing-carrousel-annonce-img'), // on cible le bloc du carrousel
+	    $img = $('#box-racing-carrousel-annonce-img img'), // on cible les images contenues dans le carrousel
+	    $indexImg = $img.length - 1, // on définit l'index du dernier élément
+	    $i = 0, // on initialise un compteur
+	    $currentImg = $img.eq($i); // enfin, on cible l'image courante, qui possède l'index i (0 pour l'instant)
+	    $img.css('display', 'none'); // on cache les images
+		$currentImg.css('display', 'block'); // on affiche seulement l'image courante
+		$carrousel.append('<div class="controls"> <span class="prev">Precedent</span> <span class="next">Suivant</span> </div>');
+	});
+	
+})(jquery);*/
+
 function openPopup(id){
 
-	//document.getElementById("box-racing-popup").style.display = "block";
-	document.getElementById("box-racing-popup-"+id).style.backgroundColor = "rgba(16,21,22,1)";
-	document.getElementById("box-racing-popup-"+id).style.width = "43%";
-	document.getElementById("box-racing-popup-"+id).style.height = "auto";/*500px*/
-	document.getElementById("box-racing-popup-close-"+id).style.display = "block";
-	document.getElementById("box-racing-popup-annonce-"+id).style.display = "block";
-	document.getElementById("box-racing-popup-annonce-"+id).style.position = "absolute";
+	if (window.screen.width < 400) {
+
+		//Screen mobile
+		document.getElementById("box-racing-popup-"+id).style.backgroundColor = "rgba(16,21,22,1)";
+		document.getElementById("box-racing-popup-"+id).style.width = "auto";
+		document.getElementById("box-racing-popup-"+id).style.height = "auto";/*500px*/
+		document.getElementById("box-racing-popup-close-"+id).style.display = "block";
+		document.getElementById("box-racing-popup-annonce-"+id).style.display = "block";
+		document.getElementById("box-racing-popup-annonce-"+id).style.position = "absolute";
+
+		document.getElementById("box-racing-carrousel-annonce-img-"+id).style.display = "block";
+
+	} else {
+		//document.getElementById("box-racing-popup").style.display = "block";
+		document.getElementById("box-racing-popup-"+id).style.backgroundColor = "rgba(16,21,22,1)";
+		document.getElementById("box-racing-popup-"+id).style.width = "43%";
+		document.getElementById("box-racing-popup-"+id).style.height = "auto";/*500px*/
+		document.getElementById("box-racing-popup-close-"+id).style.display = "block";
+		document.getElementById("box-racing-popup-annonce-"+id).style.display = "block";
+		document.getElementById("box-racing-popup-annonce-"+id).style.position = "absolute";
+
+		document.getElementById("box-racing-carrousel-annonce-img-"+id).style.display = "none";
+	}
 	
 	positionAnnonceDetail(false,id)
+	carrouselAnnonce(id);
 	//window.scrollTo()
 	
 }
@@ -88,7 +128,11 @@ function positionAnnonceDetail(fermer,id){
 			jQuery('main').animate({scrollTop: jQuery("#div-content-box-racing").offset().top}, popupTop);
 
 			if (window.scrollY == 0 || window.scrollY > 0 && window.scrollY < 130) {
-				jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop+213});
+				if (window.screen.width < 400) {
+					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop+440});
+				} else {
+					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop+213});
+				}
 			}
 			
     	});
@@ -168,12 +212,74 @@ function filterMoto(){
 	}
 }
 
+function carrouselAnnonce(id){
+	jQuery(document).ready(function(){
+		var $carrousel = $('#box-racing-carrousel-annonce-img-'+id), // on cible le bloc du carrousel
+	    $img = $('#box-racing-carrousel-annonce-img-'+id+' img'), // on cible les images contenues dans le carrousel
+	    indexImg = $img.length - 1, // on définit l'index du dernier élément
+	    i = 0, // on initialise un compteur
+	    $currentImg = $img.eq(i); // enfin, on cible l'image courante, qui possède l'index i (0 pour l'instant)
+	    $img.css('display', 'none'); // on cache les images
+		$currentImg.css('display', 'block'); // on affiche seulement l'image courante
 
-/*function printMousePos(event) {
-	var xPercent = event.clientX / jQuery( document ).width() * 100;
-	var yPercent = event.clientY / jQuery( document ).height() * 100;
-	X = xPercent;
-	Y = yPercent;
+		nomClass = "controls-"+id;
+		if ($(".controls-"+id).length == 0) {
+			$carrousel.append('<div class="'+nomClass+'"> <span class="prev"><</span> <span class="next">></span> </div>');
+		}
+
+		$('.'+nomClass).css('margin-left','5%');
+		$('.prev').css('visibility','hidden');
+
+		tabImg = $img;
+		index = 0;
+		imgTabIndex = indexImg;
+		displayImage = $currentImg
+
+		alreadyExist = true;
+		identifiant = id;
+
+	});
+
+	jQuery('.next').click(function(){ // image suivante
+
+		$(".prev").css('visibility','visible');
+	    index++; // on incrémente le compteur
+
+	    if( index <= imgTabIndex ){
+	        //$img.css('display', 'none'); // on cache les images
+	        tabImg.css('display', 'none');
+	        displayImage = $('#box-racing-carrousel-annonce-img-'+identifiant+' img').eq(index); // on définit la nouvelle image
+
+	        displayImage.css('display', 'block'); // puis on l'affiche
+
+	        if (index == imgTabIndex) {
+	        	$(".next").css('visibility','hidden');
+	        }
+	    }
+	    else{
+	        i = imgTabIndex;
+	    }
+
+	});
+
+	jQuery('.prev').click(function(){ // image précédente
+
+		$(".next").css('visibility','visible');
+	    index--; // on décrémente le compteur, puis on réalise la même chose que pour la fonction "suivante"
+
+	    if( index >= 0 ){
+	        //$img.css('display', 'none');
+	        tabImg.css('display', 'none');
+	        displayImage = $('#box-racing-carrousel-annonce-img-'+identifiant+' img').eq(index);
+	        displayImage.css('display', 'block');
+
+	        if (index == 0) {
+	        	$(".prev").css('visibility','hidden');
+	        }
+	    }
+	    else{
+	        index = 0;
+	    }
+
+	});
 }
-
-document.addEventListener("click", printMousePos);*/

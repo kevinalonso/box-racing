@@ -145,6 +145,95 @@
 	    height: 53px;
 	    margin-bottom: 0%;
 	}
+
+	.box-racing-occasion-titre-popup {
+	    color: white;
+	    font-weight: bold;
+	    font-size: 72%;
+	    margin-left: 7%;
+	}
+
+	.box-racing-occasion-head {
+	    display: inline-block;
+    	width: 67%;
+    	margin-left: -3%;
+	}
+
+	.box-racing-occasion-head-button {
+	    display: inline-block;
+	    margin-left: 5%;
+	    margin-bottom: 0%;
+	}
+
+	.box-racing-moto-occasion-img2, .box-racing-moto-occasion-img3, .box-racing-moto-occasion-img4{
+		display: none;
+	}
+
+	.box-racing-moto-occasion-img1 {
+	    width: 92%;
+	    margin-top: 3%;
+	    margin-left: 4%;
+	}
+
+	.box-racing-popup-desc {
+	    margin-top: 1%;
+	    margin-left: 4%;
+	    color: white;
+	    resize: none;
+	    width: 332px;
+	}
+
+	.box-racing-popup-desc{
+		height: 224px;
+	}
+
+	.box-racing-desc-txt {
+	    height: 200px;
+	    resize: none;
+	    font-size: 70%;
+	}
+
+	.box-racing-moto-occasion-img1{
+		display: none;
+	}
+
+	.next, .prev{
+		color: white;
+		font-size: 150%;
+		font-weight: bold;
+	}
+
+	li{
+		list-style-type: none;
+	}
+
+	.box-racing-carrousel-img{
+		display: block;
+		margin-left: -4%;
+	}
+
+	.next{
+		margin-left: 70%;
+    	background: red;
+    	border-radius: 50%;
+    	height: 37px;
+    	width: 37px;
+    	display: inline-block;
+    	text-align: center;
+    	margin-bottom: 2%;
+	}
+
+	.prev{
+		background: red;
+    	border-radius: 50%;
+    	height: 37px;
+    	width: 37px;
+    	display: inline-block;
+    	text-align: center;
+    	/*margin-bottom: 2%;*/
+	}
+
+
 }
 
 /************Landscape*****************/

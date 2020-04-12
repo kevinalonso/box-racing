@@ -72,8 +72,18 @@ get_header();
 								<div class='box-racing-moto-occasion-img1'>
 									<img src='".$annonce->imagePrincipale."'/>
 								</div>
+
+								<div id='box-racing-carrousel-annonce-img-".$annonce->id."'>
+									<ul>
+										<li><img class='box-racing-carrousel-img' src='".$annonce->imagePrincipale."'/></li>
+										<li><img class='box-racing-carrousel-img' src='".$annonce->image1."'/></li>
+										<li><img class='box-racing-carrousel-img' src='".$annonce->image2."'/></li>
+										<li><img class='box-racing-carrousel-img' src='".$annonce->image3."'/></li>
+									<ul>
+								</div>
+
 								<div class='box-racing-popup-desc'>
-									<textarea readonly style='height: 257px; resize: none; font-size: 70%;'>".$annonce->description."</textarea>
+									<textarea readonly class='box-racing-desc-txt'>".$annonce->description."</textarea>
 								</div>
 								<div class='box-racing-moto-occasion-img2'>
 									<img src='".$annonce->image1."'/>
