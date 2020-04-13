@@ -4,7 +4,7 @@ Plugin Name: All 404 Redirect  to Homepage
 Plugin URI: http://www.clogica.com
 Description: a plugin to redirect 404 pages to home page or any custom page
 Author: Fakhri Alsadi
-Version: 1.18
+Version: 1.19
 Author URI: http://www.clogica.com
 */
 
@@ -47,52 +47,43 @@ function p404_redirect()
 	}
 }
 
-
 //---------------------------------------------------------------
 
-   function p404_check_default_permalink() 
-    {      
-       global $util,$wp_rewrite;      
-       $file= get_home_path() . "/.htaccess";
-       $content="ErrorDocument 404 /index.php?error=404";
-       $marker_name="ErrorDocument";
-       $filestr ="";
-       $findword = "ErrorDocument 404";
-       
-       if($wp_rewrite->permalink_structure =='')
-       {
-        
-        if(file_exists($file)){
-            
-           $f = @fopen( $file, 'r+' );
-           $filestr = @fread($f , filesize($file)); 
-           
-           if (strpos($filestr , $findword) === false)
-            {
-               if (strpos($filestr , $begin_marker) === false)
-                    {
-                        $filestr = $begin_marker . PHP_EOL . $content . PHP_EOL . $end_marker . PHP_EOL . $filestr ;
-                        fwrite($f ,  $filestr); 
-                        fclose($f);
-                    }
-                    else
-                    {
-                        // insert content
-                        insert_with_markers( $file,  $marker_name,  $content );
-                    }
-            }
-            
-        }else
-        {
-            // create the file and insert content
-            insert_with_markers( $file,  $marker_name,  $content );
-        }
-       
-       }
+function p404_get_site_404_page_path()
+{
+   $url= str_ireplace("://", "", site_url());
+   $site_404_page = substr($url, stripos($url, "/"));  
+    if (stripos($url, "/")=== FALSE || $site_404_page == "/")
+       $site_404_page = "/index.php?error=404";
+    else
+       $site_404_page = $site_404_page . "/index.php?error=404";   
+   return  $site_404_page;
+}
+//---------------------------------------------------------------
 
+function p404_check_default_permalink() 
+ {           
+    $file= get_home_path() . "/.htaccess";
+
+    $content="ErrorDocument 404 " . p404_get_site_404_page_path();
+
+    $marker_name="FRedirect_ErrorDocument";
+    $filestr ="";
+
+    if(file_exists($file)){            
+        $f = @fopen( $file, 'r+' );
+        $filestr = @fread($f , filesize($file));            
+        if (strpos($filestr , $marker_name) === false)
+         {
+             insert_with_markers( $file,  $marker_name,  $content ); 
+         }
+    }else
+    {
+       insert_with_markers( $file,  $marker_name,  $content ); 
     }
 
-
+ }
+ 
 
 //---------------------------------------------------------------
 

@@ -25,7 +25,7 @@ function P404REDIRECT_after_plugin_row($plugin_file, $plugin_data, $status) {
 		        echo '</div>';
 		        echo '</td>';
 		        echo '</tr>';
-			
+			}
 		        ?>
 		        <script type="text/javascript">
 			    jQuery(document).ready(function() {
@@ -53,7 +53,6 @@ function P404REDIRECT_after_plugin_row($plugin_file, $plugin_data, $status) {
 			    });
 			    </script>
 			<?php
-			}
 	    }
 		
 function P404REDIRECT_get_current_URL()
@@ -78,6 +77,47 @@ function P404REDIRECT_get_current_URL()
 }
 
 //---------------------------------------------------- 
+
+
+function P404REDIRECT_get_current_parameters($remove_parameter="")
+{	
+	
+	if($_SERVER['QUERY_STRING']!='')
+	{
+		$qry = '?' . urldecode($_SERVER['QUERY_STRING']);
+
+		if(is_array($remove_parameter))
+		{
+			for($i=0;$i<count($remove_parameter);$i++)
+			{
+				if(array_key_exists($remove_parameter[$i],$_GET)){
+    				$string_remove = '&' . $remove_parameter[$i] . "=" . filter_var($_GET[$remove_parameter[$i]], FILTER_SANITIZE_URL);
+    				$qry=str_replace($string_remove,"",$qry);
+    				$string_remove = '?' . $remove_parameter[$i] . "=" . filter_var($_GET[$remove_parameter[$i]], FILTER_SANITIZE_URL);
+    				$qry=str_replace($string_remove,"",$qry);
+				}
+			}
+			
+		}else{		
+			if($remove_parameter!='')
+			{
+				if(array_key_exists($remove_parameter,$_GET)){
+				    $string_remove = '&' . $remove_parameter . "=" . filter_var($_GET[$remove_parameter], FILTER_SANITIZE_URL);
+				    $qry=str_replace($string_remove,"",$qry);
+				    $string_remove = '?' . $remove_parameter . "=" . filter_var($_GET[$remove_parameter], FILTER_SANITIZE_URL);
+				    $qry=str_replace($string_remove,"",$qry);
+				}
+			}
+		}
+                
+		return filter_var($qry, FILTER_SANITIZE_URL);
+	}else
+	{
+		return "";
+	}
+} 
+
+//-----------------------------------------------------
 
 function P404REDIRECT_init_my_options()
 {	
@@ -192,20 +232,19 @@ function P404REDIRECT_failure_option_msg($msg)
 }
 
 
-//---------------------------------------------------- 
+//----------------------------------------------------
+//** updated 2/2/2020
 function P404REDIRECT_there_is_cache()
 {	
-
-$plugins=get_option( 'active_plugins' );
-
-		    for($i=0;$i<count($plugins);$i++)
-		    {   
-		       if (stripos($plugins[$i],'cache')!==false)
-		       {
-		       	  return $plugins[$i];
-		       }
-		    }
-
-
-	return '';				
+    $plugins=get_site_option( 'active_plugins' );
+    if(is_array($plugins)){
+        foreach($plugins as $the_plugin)
+        {
+            if (stripos($the_plugin,'cache')!==false)
+            {
+                return $the_plugin;
+            }
+        }
+    }
+    return '';
 }
