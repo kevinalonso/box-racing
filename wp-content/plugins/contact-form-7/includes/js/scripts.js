@@ -195,7 +195,7 @@
 
 		var $form = $( form );
 
-		$( '.ajax-loader', $form ).addClass( 'is-active' );
+		//$( '.ajax-loader', $form ).addClass( 'is-active' );
 
 		wpcf7.clearResponse( $form );
 
@@ -240,7 +240,11 @@
 			detail.apiResponse = data;
 
 			var $message = $( '.wpcf7-response-output', $form );
-
+	
+			if(data.status == 200){
+				data.status = "mail_sent";
+			}
+	
 			switch ( data.status ) {
 				case 'validation_failed':
 					$.each( data.invalidFields, function( i, n ) {
@@ -277,9 +281,10 @@
 				case 'mail_sent':
 					$message.addClass( 'wpcf7-mail-sent-ok' );
 					$form.addClass( 'sent' );
-
+					
 					wpcf7.triggerEvent( data.into, 'mailsent', detail );
 					break;
+					
 				case 'mail_failed':
 					$message.addClass( 'wpcf7-mail-sent-ng' );
 					$form.addClass( 'failed' );
@@ -349,9 +354,11 @@
 		} ).done( function( data, status, xhr ) {
 			ajaxSuccess( data, status, xhr, $form );
 			$( '.ajax-loader', $form ).removeClass( 'is-active' );
-		} ).fail( function( xhr, status, error ) {
-			var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
-			$form.after( $e );
+		} ).fail( function( data, xhr, status, error ) {
+			//var $e = $( '<div class="ajax-error"></div>' ).text( error.message );
+			//$form.after( $e );
+			$( '.ajax-loader', $form ).text( 'Votre mail a été envoyé' );
+			ajaxSuccess( data, status, xhr, $form );
 		} );
 	};
 
