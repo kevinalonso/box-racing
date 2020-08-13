@@ -53,8 +53,10 @@ with others.
 /* -------------------------------------------------------------------------- */
 
 .box-racing-back-post{
-	background: url(/dev/wp-content/uploads/2020/03/box-racing-home.jpg) no-repeat center center fixed;
+	/*background: url(/dev/wp-content/uploads/2020/03/box-racing-home.jpg) no-repeat center center fixed;*/
+	background-image: url('http://localhost/dev/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;
     background-size: cover;
+    background-position: 0% 56% !important;
 }
 
 
@@ -71,19 +73,51 @@ with others.
 	margin-left: 2%;
  }
 
+.box-racing-contenaire-atelier{
+	position: relative;
+    max-width: 77%!important;
+    background: #000000bf;;
+    display: inline-block;
+    margin-left: 1% !important;
+}
+
+.box-racing-contenaire-atelier-right{
+	position: relative;
+    display: inline-block;
+    max-width: 20%!important;
+    background: #000000bf;;
+    margin-left: 0% !important;
+}
+
+.box-racing-consigne{
+	color: white;
+    margin-left: 1%!important;
+    font-size: 87%;
+    text-align: center;
+}
+
+.box-racing-consigne-1{
+    color: white;
+    margin-left: 1%!important;
+    font-size: 87%;
+    text-align: center;
+    margin-top: 86.4%;
+    margin-bottom: 13%;
+}
+
 .box-racing-atelier-entretien-item{
 	border-left: 3px solid red;
-    height: 102px;
+    /*height: 102px;*/
 }
 
 .box-racing-serv-panne{ 
 	border-left: 3px solid red;
-    height: 102px;
+    /*height: 102px;*/
 }
 
 .box-racing-serv-rap{
    border-left: 3px solid red;
-   height: 217px;
+   /*height: 217px;*/
 }
 
 .box-raing-atelier-titre{
@@ -91,6 +125,9 @@ with others.
     color: white !important;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     margin-top: -8%!important;
+    background: #000000bf;
+    margin-left: 1%!important;
+    text-align: center;
 }
 
 .box-racing-atelier-item{
@@ -99,43 +136,89 @@ with others.
 
 .box-racing-atelier-service-rap{
 	max-width: 22%!important;
-	margin-left: 9%!important;
-	display: inline-block;
-	font-size: 160%;
-	/*font-weight: bold;*/
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	background-color: #ffffffcf;
-    box-shadow: 1px 1px 12px #000;
+    margin-left: 1%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
     color: white !important;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .box-racing-atelier-entretien{
-	max-width: 20%!important;
-	margin-left: 11%!important;
+	/*max-width: 29%!important;*/
+	margin-left: 9%!important;
 	display: inline-block;
-	font-size: 160%;
+	font-size: 87%;
 	/*font-weight: bold;*/
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	background-color: #ffffffcf;
-    box-shadow: 1px 1px 12px #000;
-	position: absolute;
+	/*background-color: #ffffffcf;
+    box-shadow: 1px 1px 12px #000;*/
+	/*position: absolute;*/
 	color: white !important;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+    width: 45%;
 }
 
 .box-racing-atelier-service-panne{
-	max-width: 24%!important;
-    margin-left: 38%!important;
+	max-width: 28%!important;
+    margin-left: 4%!important;
     display: inline-block;
-    font-size: 160%;
+    font-size: 87%;
     /*font-weight: bold;*/
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    background-color: #ffffffcf;
-    box-shadow: 1px 1px 12px #000;
+    /*background-color: #ffffffcf;
+    box-shadow: 1px 1px 12px #000;*/
     position: absolute;
     color: white !important;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+}
+
+.box-racing-atelier-service-diag{
+	max-width: 28%!important;
+    /* margin-left: 1%!important; */
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    position: absolute;
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 15%;
+    margin-top: 23%;
+    margin-left: -65%!important;
+}
+
+.box-racing-serv-diag{
+	border-left: 3px solid red;
+}
+
+.box-racing-atelier-service-refection{
+	max-width: 28%!important;
+    margin-left: -45%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    position: absolute;
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 23%;
+    margin-top: 23%;
+}
+
+.box-racing-atelier-service-accessoire{
+	max-width: 28%!important;
+    margin-left: 70%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* position: absolute; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 /*------------------CSS CONTACT ---------------------------------------------*/
@@ -165,6 +248,7 @@ with others.
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     font-size: 120%;
     font-weight: bold;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif !important;
 }
 
 .box-racing-lab-inline{
@@ -185,14 +269,211 @@ with others.
 	height: 180px;
 }
 
+.box-racing-emplacement-menu{
+    margin-left: 0%;
+    margin-top: 0%;
+    background-color: #161616;
+    width: 100%;
+}
+
+/*----------------------------------Dépôt vente rachat----------------------*/
+.box-racing-presta-vente {
+    margin-left: 1%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.box-racing-presta-reprise{
+    margin-left: 1%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 75%;
+}
+
+.consigne-txt-titre{
+	color: white;
+    margin-left: 1%!important;
+}
+
+.box-racing-presta-piece-vente-papier{
+	color: white;
+    font-size: 83%;
+    width: 96%;
+    margin-left: 4%;
+}
+
+.box-racing--presta-consigne-pieces{
+	margin-bottom: 13.5%;
+}
+
+.box-racing-presta-item-papier{
+	margin-bottom: 4%;
+	list-style: none;
+}
+
+/*----------------------------------Prestation------------------------------*/
+.box-racing-contenaire-presta {
+    position: relative;
+    max-width: 77%!important;
+    background: #000000bf;
+    display: inline-block;
+    margin-left: 1% !important;
+}
+
+.box-racing-presta-piece-vente-papier, .box-racing-immat, .box-racing-presta-entretien-item, .box-racing-presta-depannage {
+    border-left: 3px solid red;
+    /* height: 217px; */
+}
+
+.box-racing-presta-item {
+    list-style: none;
+}
+
+.box-racing-presta-dep {
+    max-width: 22%!important;
+    margin-left: 1%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    position: absolute;
+}
+
+.box-racing-presta-entretien{
+	/*max-width: 22%!important;*/
+    margin-left: 22%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 45%;
+}
+
+.box-racing-presta-vente{
+	/*max-width: 22%!important;*/
+    margin-left: 1%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 64%;
+}
+
+.box-racing-presta-service-diag {
+    /* max-width: 22%!important; */
+    margin-left: 6%!important;
+    display: inline-block;
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 29%;
+    margin-top: -21.7%;
+    position: absolute;
+}
+
+.box-racing-presta-service-immat{
+	/* max-width: 22%!important; */
+    margin-left: 1%!important;
+    /*display: inline-block;*/
+    font-size: 87%;
+    /* font-weight: bold; */
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    /* background-color: #ffffffcf; */
+    /* box-shadow: 1px 1px 12px #000; */
+    color: white !important;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+    width: 47%;
+    margin-top: 1%;
+}
+
+.box-racing-contenaire-presta-right {
+    position: absolute;
+    display: inline-block;
+    max-width: 20%!important;
+    background: #000000bf;
+    margin-left: 1% !important;
+}
+
+.box-racing--presta-consigne-1 {
+    color: white;
+    margin-left: 1%!important;
+    font-size: 87%;
+    text-align: center;
+}
+
+/*--------------------------------Kawa neuves-------------------------------*/
+
+.container-kawa {
+    position: relative;
+    max-width: 77%!important;
+    background: #000000bf;
+    display: inline-block;
+    margin-left: 13% !important;
+}
+
+.box-racing-kawa-img{
+	width: 45%;
+    margin-left: 3%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.box-racing-kawa-texte{
+	color: white;
+    margin-left: 49%;
+    position: absolute;
+    margin-top: 2%;
+    /*font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;*/
+    letter-spacing: normal;
+    font-size: 193%;
+}
+
+.box-racing-kawa-texte-info{
+	color: white;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 49%;
+    /*font-family: NonBreakingSpaceOverride, "Hoefler Text", Garamond, "Times New Roman", serif;*/
+    letter-spacing: normal;
+    font-size: 193%;
+}
+
 /*--------------------------------Accueil-----------------------------------*/
 
 .box-racing-adresse-head{
-	/*background-color: rgba(216, 40, 45, 0.63);*/
+	/*background-color: rgba(216, 40, 45, 0.63); */
     height: 70px;
-    margin-left: -45%;
-    width: 75%;
-    margin-top: 6%;
+    margin-left: -46%;
+    width: 123%;
+    margin-top: 0%;
 }
 
 .box-racing-adresse-head-txt{
@@ -201,11 +482,11 @@ with others.
 }
 
 .box-racing-adresse-head-num{
-	font-size: 174%;
+	font-size: 190%;
     font-weight: bold;
     color: white !important;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-    margin-left: 2%;
+    margin-left: 43%;
 }
 
 
@@ -225,8 +506,57 @@ with others.
 	position: absolute;
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
-    margin-left: 2%;
+    margin-left: -0.5%;
     margin-top: -1%;
+}
+
+.box-racing-background-occasion-moto:hover{
+	transform: scale(1.1);
+}
+
+.box-racing-background-occasion-moto-a2:hover{
+	transform: scale(1.1);
+}
+
+.box-racing-carrousel-img{
+	display: block;
+	margin-left: -4%;
+	width: 50%;
+}
+
+.next{
+	margin-left: 70%;
+	background: red;
+	border-radius: 50%;
+	height: 37px;
+	width: 37px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 2%;
+	color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.prev{
+	background: red;
+	border-radius: 50%;
+	height: 37px;
+	width: 37px;
+	display: inline-block;
+	text-align: center;
+	/*margin-bottom: 2%;*/
+	color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.box-racing-moto-occasion-img1{
+	display: none;
+}
+
+.box-racing-moto-occasion-img2, .box-racing-moto-occasion-img3, .box-racing-moto-occasion-img4{
+	display: none;
 }
 
 .box-racing-depot-div:hover{
@@ -241,10 +571,14 @@ with others.
 	transform: scale(1.1);
 }
 
+.box-racing-kawa-div:hover{
+	transform: scale(1.1);
+}
+
 .box-racing-atelier-div{
 	width: 24%;
 	display: inline-block;
-	margin-left: 37%;
+	margin-left: 25%;
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
     margin-top: -1%;
@@ -292,10 +626,20 @@ with others.
 
 .box-racing-concepte-div{
 	width: 24%;
-	margin-left: 12%;
+	margin-left: 1%;
 	display: inline-block;
 	background-color: #ffffffcf;
     box-shadow: 1px 1px 12px #000;
+    margin-top: -1%;
+}
+
+.box-racing-kawa-div{
+	width: 24%;
+    margin-left: 1%;
+    display: inline-block;
+    margin-top: 1%;
+    box-shadow: 1px 1px 12px #000;
+    background-color: #ffffffcf;
     margin-top: -1%;
 }
 
@@ -309,6 +653,35 @@ with others.
 }
 
 .box-racing-concepte-span{
+	/*width: 53%;*/
+    font-size: 104%;
+    /*color: white;*/
+    text-align: center;
+    /*margin-left: 26%;*/
+    color: #696868;
+    font-weight: bold;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.box-racing-kawa-img{
+	width: 190px;
+    height: 184px;
+    border-radius: 50%;
+    margin-left: 29%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.box-racing-kawa-page-img{
+    width: 42%;
+    /*height: 184px;
+    border-radius: 50%;
+    margin-left: 29%;
+    margin-top: 3%;*/
+    padding: 1%;
+}
+
+.box-racing-kawa-span{
 	/*width: 53%;*/
     font-size: 104%;
     /*color: white;*/
@@ -352,11 +725,12 @@ with others.
 }
 
 .box-racing-sale-moto-title{
-	max-width: 100% !important;
+	/*max-width: 100% !important;*/
     color: white !important;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
-    margin-left: 1%!important;
+    margin-left: 0.5%!important;
     display: inline-block;
+    width: 70%!important;
 }
 
 #box-racing-popup-annonce{
@@ -375,23 +749,23 @@ with others.
 	margin-left: 79%;
 }
 
-.box-racing-moto-occasion-img1{
+/*.box-racing-moto-occasion-img1{
 	width: 50%;
 	margin-left: 3%;
-}
+}*/
 
-.box-racing-moto-occasion-img2,
+/*.box-racing-moto-occasion-img2,
 .box-racing-moto-occasion-img3,
 .box-racing-moto-occasion-img4{
 	width: 29%;
 	display: inline-block;
 	margin-top: 2%;
     margin-left: 3%;
-}
+}*/
 
 .box-racing-popup-desc{
-	margin-top: -38%;
-    margin-left: 54%;
+	margin-top: -46%;
+    margin-left: 51%;
     color: white;
 }
 
@@ -422,9 +796,13 @@ with others.
 }
 
 .box-racing-desc-txt{
-	height: 257px;
+	/*height: 257px;*/
     resize: none;
     font-size: 70%;
+    position: absolute;
+    width: 44%;
+    height: 400px;
+    margin-top: 5.5%;
 }
 
 /*style='height: 257px; resize: none; font-size: 70%;'*/
@@ -495,8 +873,8 @@ with others.
 
 .box-racing-custom-menu-style {
 	position: absolute;
-    margin-top: 3.7%;
-    margin-left: 47%;
+    /*margin-top: 3.7%; old value
+    margin-left: 47%; old value*/
 }
 
 .box-racing-marque {
@@ -508,38 +886,37 @@ with others.
 }
 
 .box-racing-marque-ktm {
-	width: 16%;
+	width: 33%;
 }
 
 .box-racing-marque-triumph {
-	width: 16%;
-    margin-top: -3.5%;
-    margin-left: 15%;
+	width: 33%;
+    margin-top: -7.5%;
+    margin-left: 27%;
 }
 
 .box-racing-marque-kawasaki {
-	width: 16%;
-    margin-top: -10.5%;
-    margin-left: 33%;
+	width: 33%;
+    margin-top: -21.5%;
+    margin-left: 63%;
 }
 
 .box-racing-marque-suzuki {
-	width: 10%;
-    margin-top: -12.5%;
-    margin-left: 51%;
+	width: 16%;
+    margin-top: -24.5%;
+    margin-left: 99%;
 }
 
 .box-racing-marque-honda {
-    width: 10%;
-    margin-left: 76%;
-    margin-top: -10%;
+    width: 18%;
+    margin-left: 119%;
+    margin-top: -18%;
 }
 
 .box-racing-marque-yamaha {
-    width: 25%;
-    margin-top: -8.5%;
-    margin-left: 56%;
-
+    width: 27%;
+    margin-top: -15.5%;
+    margin-left: 132%;
 }
 
 #sp-wp-carousel-free-id-113 {
@@ -590,18 +967,27 @@ with others.
 }
 
 .box-racing-header-atelier {
-	background-image: url('http://localhost/dev/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;
-    background-position: 0% 50% !important;
+	/*background-image: url('http://localhost/dev/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;*/
+    /*background-position: 0% 50% !important;*/
+    background-image: url(http://localhost/dev/wp-content/uploads/2019/12/box-racing-back-grey.png)
 }
 
 .entry-title {
-	color: white !important;
+	color: black !important;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
 }
 
 .header-titles-wrapper {
 	margin-left: 0%;
 }
+
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    left: 36% !important;
+}
+
+
 
 /*------------------------------------End CSS---------------------------------*/
 
@@ -1976,7 +2362,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 .site-logo img {
 	max-height: 6rem;
 	margin: 0 auto;
-	width: auto;
+	width: 58%;
 }
 
 body:not(.enable-search-modal) .site-logo img {
@@ -2125,12 +2511,14 @@ body:not(.enable-search-modal) .site-logo img {
 
 ul.primary-menu {
 	display: flex;
-	font-size: 1.8rem;
-	font-weight: 500;
-	letter-spacing: -0.0277em;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	margin: -0.8rem 0 0 -1.6rem;
+    font-size: 113%;
+    font-weight: 500;
+    letter-spacing: -0.0277em;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: -0.8rem 0 0 -1.6rem;
+    width: 123%;
+    margin-left: -25% !important;
 }
 
 .primary-menu .icon {
@@ -4883,7 +5271,7 @@ div.comment:first-of-type {
 
 .footer-top-visible .footer-nav-widgets-wrapper,
 .footer-top-hidden #site-footer {
-	margin-top: 5rem;
+	margin-top: 0rem;
 }
 
 .reduced-spacing.footer-top-visible .footer-nav-widgets-wrapper,
@@ -6013,7 +6401,7 @@ a.to-the-top > * {
 
 	.footer-top-visible .footer-nav-widgets-wrapper,
 	.footer-top-hidden #site-footer {
-		margin-top: 8rem;
+		margin-top: 0rem;
 	}
 
 	/* FOOTER TOP */
@@ -6085,7 +6473,7 @@ a.to-the-top > * {
 	}
 
 	.powered-by-wordpress {
-		display: block;
+		display: none;
 	}
 
 	.to-the-top-long {
@@ -6168,7 +6556,8 @@ a.to-the-top > * {
 
 	.primary-menu-wrapper {
 		display: block;
-		width: 100%;
+        width: auto;
+		/*width: 100%; old value*/
 		/*margin-left: -59%;*/
 	}
 

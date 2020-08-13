@@ -34,31 +34,39 @@ window.onload = function(e){
 
 function openPopup(id){
 
-	if (window.screen.width < 400) {
+	//if (window.screen.width < 400) {
 
 		//Screen mobile
 		document.getElementById("box-racing-popup-"+id).style.backgroundColor = "rgba(16,21,22,1)";
 		document.getElementById("box-racing-popup-"+id).style.width = "auto";
-		document.getElementById("box-racing-popup-"+id).style.height = "auto";/*500px*/
+		document.getElementById("box-racing-popup-"+id).style.height = "550px";/*500px*/
 		document.getElementById("box-racing-popup-close-"+id).style.display = "block";
 		document.getElementById("box-racing-popup-annonce-"+id).style.display = "block";
 		document.getElementById("box-racing-popup-annonce-"+id).style.position = "absolute";
 
 		document.getElementById("box-racing-carrousel-annonce-img-"+id).style.display = "block";
+		document.getElementById("box-racing-popup-"+id).style.zIndex = "1";
 
-	} else {
+		if (window.screen.width > 400) {
+			document.getElementById("box-racing-popup-"+id).style.position = "relative";
+			document.getElementById("box-racing-popup-"+id).style.left = "23%";
+			document.getElementById("box-racing-popup-"+id).style.marginTop = "-3%";
+		}
+
+	/*} else {
 		//document.getElementById("box-racing-popup").style.display = "block";
 		document.getElementById("box-racing-popup-"+id).style.backgroundColor = "rgba(16,21,22,1)";
 		document.getElementById("box-racing-popup-"+id).style.width = "43%";
-		document.getElementById("box-racing-popup-"+id).style.height = "auto";/*500px*/
+		document.getElementById("box-racing-popup-"+id).style.height = "auto";//500px
 		document.getElementById("box-racing-popup-close-"+id).style.display = "block";
 		document.getElementById("box-racing-popup-annonce-"+id).style.display = "block";
 		document.getElementById("box-racing-popup-annonce-"+id).style.position = "absolute";
 
 		document.getElementById("box-racing-carrousel-annonce-img-"+id).style.display = "none";
+	}*/
+	if (window.screen.width < 400) {
+		positionAnnonceDetail(false,id)
 	}
-	
-	positionAnnonceDetail(false,id)
 	carrouselAnnonce(id);
 	//window.scrollTo()
 	
@@ -124,15 +132,16 @@ function positionAnnonceDetail(fermer,id){
 			if(popupTop < 0 || popupTop == undefined)
 			   popupTop = 0;
 
-			jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop,left:popupLeft});
+			
 			jQuery('main').animate({scrollTop: jQuery("#div-content-box-racing").offset().top}, popupTop);
 
 			if (window.scrollY == 0 || window.scrollY > 0 && window.scrollY < 130) {
 				if (window.screen.width < 400) {
+					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop,left:popupLeft});
 					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop+440});
-				} else {
-					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:popupTop+213});
-				}
+				} /*else {
+					jQuery(document.getElementById('box-racing-popup-'+id)).offset({top:+200,left:243});
+				}*/
 			}
 			
     	});
@@ -228,6 +237,8 @@ function carrouselAnnonce(id){
 		}
 
 		$('.'+nomClass).css('margin-left','5%');
+		$('.'+nomClass).css('margin-top','-3%');
+		$('.'+nomClass).css('width','45%');
 		$('.prev').css('visibility','hidden');
 
 		tabImg = $img;

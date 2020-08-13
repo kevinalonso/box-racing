@@ -14,7 +14,7 @@ get_header();
 <main id="site-content" role="main">
 	<div id="div-content-box-racing">
 		<div>
-			<h2 class="box-racing-sale-moto-title">Moto d'occassions chez Box Racing en ce moment</h2>
+			<h2 class="box-racing-sale-moto-title">Nos occasions</h2>
 
 			<div class="box-racing-filter-area">
 				<label class="box-racing-annonce-filter">Moto permis A2 :</label>
@@ -74,7 +74,7 @@ get_header();
 								</div>
 
 								<div id='box-racing-carrousel-annonce-img-".$annonce->id."'>
-									<ul>
+									<ul style='list-style: none;'>
 										<li><img class='box-racing-carrousel-img' src='".$annonce->imagePrincipale."'/></li>
 										<li><img class='box-racing-carrousel-img' src='".$annonce->image1."'/></li>
 										<li><img class='box-racing-carrousel-img' src='".$annonce->image2."'/></li>

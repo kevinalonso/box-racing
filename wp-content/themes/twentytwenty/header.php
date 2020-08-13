@@ -104,7 +104,7 @@
 
 				</div><!-- .header-titles-wrapper -->
 
-				<div class="header-navigation-wrapper box-racing-custom-menu-style">
+				<!--<div class="header-navigation-wrapper box-racing-custom-menu-style">
 
 					<?php
 					if ( has_nav_menu( 'primary' ) || ! has_nav_menu( 'expanded' ) ) {
@@ -192,7 +192,7 @@
 						</div><!-- .header-toggles -->
 						<?php
 					}
-					?>
+					?>-->
 
 				</div><!-- .header-navigation-wrapper -->
 
