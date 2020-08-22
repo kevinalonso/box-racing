@@ -7,6 +7,63 @@
 		display: none;
 	}
 
+	.box-racing-contenaire-presta {
+	    position: relative;
+	    /* max-width: 77%!important; */
+	    background: #000000bf;
+	    display: block !important;
+	    /* margin-left: 1% !important; */
+	    max-width: 100%!important;
+	    /* font-size: 62%; */
+	    margin-left: auto !important;
+	}
+
+	.box-racing-presta-vente{
+		margin-left: auto !important;
+	}
+
+	.box-racing-contenaire-presta-right {
+	    position: relative;
+	    display: block;
+	    max-width: 100%!important;
+	    background: #000000bf;
+	    margin-left: auto !important;
+	}
+
+	.box-racing-contenaire-atelier {
+	    position: relative;
+	    max-width: 100% !important;
+	    background: #000000bf;
+	    display: block;
+	    margin-left: auto !important;
+	}
+
+	.box-racing-presta-reprise,.box-racing-presta-vente,.box-racing-atelier-entretien,.box-racing-contenaire-atelier-right{
+		width: 100%;
+	}
+
+	.box-racing-presta-vente {
+	    /* max-width: 22%!important; */
+	    margin-left: 1%!important;
+	    display: inline-block;
+	    font-size: 87%;
+	    /* font-weight: bold; */
+	    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	    /* background-color: #ffffffcf; */
+	    /* box-shadow: 1px 1px 12px #000; */
+	    color: white !important;
+	    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+	    /* width: 64%; */
+	}
+
+	.box-racing-adresse-head-num {
+    	font-size: 190%;
+    	font-weight: bold;
+    	color: white !important;
+    	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    	margin-left: 0%;
+	}
+
 	.box-racing-marque{
 		width: 90% !important;
     	margin-left: 39% !important;
@@ -35,8 +92,16 @@
 		margin-top: 3% !important;
 	}
 
+	.box-racing-kawa-div {
+	    width: 100% !important;
+	    margin-left: 0% !important;
+	    display: block !important;
+	    margin-top: 2% !important;
+	    position: relative !important;
+	}
+
 	.box-racing-home {
-		height: 859px !important;
+		height: 960px !important;
 	}
 
 	.box-racing-atelier-img {
@@ -44,6 +109,10 @@
 	}
 
 	.box-racing-concepte-img {
+		margin-left: 19% !important; 
+	}
+
+	.box-racing-kawa-img {
 		margin-left: 19% !important; 
 	}
 
@@ -91,9 +160,48 @@
 		max-width: 86% !important;
 		margin-left: 7% !important;
 		position: relative;
+		margin-top: 32%;
 	}
 	.box-racing-serv-panne{
 		height: 87px;
+	}
+
+	.box-racing-atelier-service-diag {
+	    display: block;
+	    max-width: 86% !important;
+	    margin-left: 7% !important;
+	    position: relative;
+	    width: 100%;
+	    margin-top: 37%;
+	}
+
+	.box-racing-atelier-service-accessoire {
+	    max-width: 86%!important;
+	    margin-left: 7%!important;
+	    display: block;
+	    font-size: 87%;
+	    /* font-weight: bold; */
+	    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	    /* position: absolute; */
+	    color: white !important;
+	    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+	}
+
+	.box-racing-consigne-1 {
+	    color: white;
+	    margin-left: 1%!important;
+	    font-size: 87%;
+	    text-align: center;
+	    margin-top: 8.4%;
+	    margin-bottom: 13%;
+	}
+
+	.box-racing-contenaire-atelier-right {
+	    position: relative;
+	    display: block;
+	    max-width: 88%!important;
+	    background: #000000bf;
+	    margin-left: auto !important;
 	}
 
 	.bottom-responsive-reparation{
@@ -233,6 +341,32 @@
     	/*margin-bottom: 2%;*/
 	}
 
+	.box-racing-kawa-texte {
+	    position: relative;
+	    font-size: 94%;
+	    margin-left: 0%;
+	    margin-top: 0%;
+	}
+
+	.box-racing-kawa-texte-info {   
+	    position: relative;
+	    margin-top: 0%;
+	    margin-left: 0%;
+	    font-size: 94%;
+	}
+
+	.box-racing-kawa-page-img {
+	    width: 100%;
+	    padding: 1%;
+	}
+
+	.container-kawa {
+	    position: relative;
+	    max-width: 88%!important;
+	    background: #000000bf;
+	    display: block;
+	    margin-left: auto!important;
+	}
 
 }
 

@@ -19,7 +19,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
-		<script src="http://localhost/dev/wp-content/themes/twentytwenty/templates/annonce.js"></script>
+		<script src="https://box-racing.fr/wp-content/themes/twentytwenty/templates/annonce.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.js"></script>
   		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js"></script>
   		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
@@ -30,8 +30,8 @@
 
 
 		<!--My responsive css-->
-		<link rel="stylesheet" href="http://localhost/dev/wp-content/themes/twentytwenty/tab-style.css">
-  		<link rel="stylesheet" href="http://localhost/dev/wp-content/themes/twentytwenty/mobile-style.css">
+		<link rel="stylesheet" href="https://box-racing.fr/wp-content/themes/twentytwenty/tab-style.css">
+  		<link rel="stylesheet" href="https://box-racing.fr/wp-content/themes/twentytwenty/mobile-style.css">
 
 	</head>
 
@@ -78,12 +78,12 @@
 						?>
 
 						<div class="box-racing-marque">
-							<img class="box-racing-marque-ktm" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-ktm.png">
-							<img class="box-racing-marque-triumph" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-triumph.png">
-							<img class="box-racing-marque-kawasaki" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-kawa.png">
-							<img class="box-racing-marque-suzuki" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-suzuki.png">
-							<img class="box-racing-marque-honda" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-honda.png">
-							<img class="box-racing-marque-yamaha" src="http://localhost/dev/wp-content/uploads/2019/12/box-racing-yamaha.png">
+							<img class="box-racing-marque-ktm" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-ktm.png">
+							<img class="box-racing-marque-triumph" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-triumph.png">
+							<img class="box-racing-marque-kawasaki" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-kawa.png">
+							<img class="box-racing-marque-suzuki" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-suzuki.png">
+							<img class="box-racing-marque-honda" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-honda.png">
+							<img class="box-racing-marque-yamaha" src="https://box-racing.fr/wp-content/uploads/2019/12/box-racing-yamaha.png">
 
 							<div class="box-racing-adresse-head">
 								<!--<span class="box-racing-adresse-head-txt">4 rue Héléne Boucher – Z.I Mescoden29260 PLOUDANIEL</span>-->

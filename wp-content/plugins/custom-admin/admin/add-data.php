@@ -81,7 +81,7 @@ if (!empty($_POST)){
 	$wpdb->insert($tableImage, $dataImage);
 
 	//Permet de faire la redirection
-	header('Location: http://localhost/dev/wp-admin/options-general.php?page=custom-admin-list');
+	header('Location: https://box-racing.fr/wp-admin/options-general.php?page=custom-admin-list');
 
 }
 

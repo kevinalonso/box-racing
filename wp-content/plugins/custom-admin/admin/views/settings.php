@@ -2,7 +2,7 @@
 <head>
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
-    <script src="http://localhost/dev/wp-content/plugins/custom-admin/admin/views/js/image.js"></script>
+    <script src="https://box-racing.fr/wp-content/plugins/custom-admin/admin/views/js/image.js"></script>
 </head>
 
 <div class="wrap">

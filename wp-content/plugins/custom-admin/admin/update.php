@@ -9,7 +9,7 @@ function updateOne(){
 	$annonce = $wpdb->get_results($sql);
 	$tab = array('desc' => $annonce[0]->description);
 
-	header('Location: http://localhost/dev/wp-admin/options-general.php?page=custom-admin-page&titre='.$annonce[0]->titre.'&cylindre='.$annonce[0]->cylindre.'&annee='.$annonce[0]->annee.'&marque='.$annonce[0]->marque.'&kilometre='.$annonce[0]->kilometre.'&prix='.$annonce[0]->prix.'&description='.http_build_query($tab).'&imgPrincipale='.$annonce[0]->imagePrincipale.'&img1='.$annonce[0]->image1.'&img2='.$annonce[0]->image2.'&img3='.$annonce[0]->image3.'&maj=true'.'&id='.$annonce[0]->id);
+	header('Location: https://box-racing.fr/wp-admin/options-general.php?page=custom-admin-page&titre='.$annonce[0]->titre.'&cylindre='.$annonce[0]->cylindre.'&annee='.$annonce[0]->annee.'&marque='.$annonce[0]->marque.'&kilometre='.$annonce[0]->kilometre.'&prix='.$annonce[0]->prix.'&description='.http_build_query($tab).'&imgPrincipale='.$annonce[0]->imagePrincipale.'&img1='.$annonce[0]->image1.'&img2='.$annonce[0]->image2.'&img3='.$annonce[0]->image3.'&maj=true'.'&id='.$annonce[0]->id);
 }
 
 if (isset($_GET['updateOne'])) {

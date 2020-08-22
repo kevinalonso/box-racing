@@ -14,7 +14,7 @@ function deleteOne(){
 	$wpdb->delete($tableImage, array( 'id_annonce' => $id ));
 
 
-	header('Location: http://localhost/dev/wp-admin/options-general.php?page=custom-admin-list');
+	header('Location: https://box-racing.fr/wp-admin/options-general.php?page=custom-admin-list');
 }
 
 if (isset($_GET['deleteOne'])) {

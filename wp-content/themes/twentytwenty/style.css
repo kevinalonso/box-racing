@@ -54,7 +54,7 @@ with others.
 
 .box-racing-back-post{
 	/*background: url(/dev/wp-content/uploads/2020/03/box-racing-home.jpg) no-repeat center center fixed;*/
-	background-image: url('http://localhost/dev/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;
+	background-image: url('https://box-racing.fr/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;
     background-size: cover;
     background-position: 0% 56% !important;
 }
@@ -817,7 +817,7 @@ with others.
 }
 
 .footer-custom-back {
-	background-image: url(http://localhost/dev/wp-content/uploads/2019/12/box-racing-back-grey.png);
+	background-image: url(https://box-racing.fr/wp-content/uploads/2019/12/box-racing-back-grey.png);
 }
 
 .custom-title-widget-color {
@@ -969,7 +969,7 @@ with others.
 .box-racing-header-atelier {
 	/*background-image: url('http://localhost/dev/wp-content/uploads/2020/01/box-racing-magasin.jpg') !important;*/
     /*background-position: 0% 50% !important;*/
-    background-image: url(http://localhost/dev/wp-content/uploads/2019/12/box-racing-back-grey.png)
+    background-image: url(https://box-racing.fr/wp-content/uploads/2019/12/box-racing-back-grey.png)
 }
 
 .entry-title {
